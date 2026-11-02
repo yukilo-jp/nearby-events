@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "collection_area": {
+    "prefecture": "栃木県",
+    "municipality": "市貝町",
+    "radius_km": 50,
+    "center_latitude": 36.543055555555554,
+    "center_longitude": 140.10222222222222,
+    "center_label": "市貝町役場",
+    "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
+  },
+  "coverage_note": "公式情報を確認した初期3件。市貝町周辺50km圏の全イベントを網羅していません。座標未確認のイベントは半径検索から除外します。",
+  "events": [
+    {
+      "id": "ichikai-20261129-satoyama",
+      "title": "2026年秋 SATOYAMAヘルシーマーケット",
+      "start_date": "2026-11-29",
+      "end_date": "2026-11-29",
+      "start_time": "10:00",
+      "end_time": "15:00",
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "venue": "市貝町役場 さわやか広場",
+      "address": "栃木県芳賀郡市貝町大字市塙1280",
+      "latitude": 36.543055555555554,
+      "longitude": 140.10222222222222,
+      "summary": "有機農産物を使った食事の販売や、クラフト体験、音楽ステージを楽しめる催し。荒天時は中止。",
+      "official_url": "https://www.town.ichikai.tochigi.jp/info/1728",
+      "source_name": "市貝町公式ホームページ",
+      "source_url": "https://www.town.ichikai.tochigi.jp/info/1728",
+      "checked_on": "2026-11-02",
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
+    },
+    {
+      "id": "mashiko-20261114-townfestival",
+      "title": "令和8年度益子町民まつり",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "start_time": "09:00",
+      "end_time": "14:00",
+      "prefecture": "栃木県",
+      "municipality": "益子町",
+      "venue": "益子町民センター",
+      "address": "栃木県芳賀郡益子町大字益子3667番地3",
+      "latitude": 36.4702173025633,
+      "longitude": 140.098675489426,
+      "summary": "町民センターで産業・健康・福祉・文化などの催しを合同開催。",
+      "official_url": "https://www.town.mashiko.lg.jp/page/page002441.html",
+      "source_name": "益子町公式ホームページ",
+      "source_url": "https://www.town.mashiko.lg.jp/page/page002441.html",
+      "checked_on": "2026-11-02",
+      "coordinate_status": "official_map",
+      "coordinate_source_url": "https://www.town.mashiko.lg.jp/map.php?code=73"
+    },
+    {
+      "id": "mashiko-20261118-leonids",
+      "title": "しし座流星群観望会",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "start_time": "19:00",
+      "end_time": "21:00",
+      "prefecture": "栃木県",
+      "municipality": "益子町",
+      "venue": "益子町天体観測施設スペース250",
+      "address": "栃木県芳賀郡益子町大字益子4231番地",
+      "latitude": null,
+      "longitude": null,
+      "summary": "流星群などの観望会。大人400円、小中学生200円。天候によって中止となる場合があります。",
+      "official_url": "https://www.town.mashiko.lg.jp/page/page000702.html",
+      "source_name": "益子町公式ホームページ",
+      "source_url": "https://www.town.mashiko.lg.jp/page/page002441.html",
+      "checked_on": "2026-11-02",
+      "coordinate_status": "unverified"
+    }
+  ],
+  "generated_on": "2026-11-02",
+  "holiday_dates": [
+    "2026-11-03",
+    "2026-11-23"
+  ],
+  "holiday_source_url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+}
