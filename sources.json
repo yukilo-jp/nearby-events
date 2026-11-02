@@ -172,6 +172,39 @@
       "url": "https://illumi.walkerplus.com/",
       "name": "ウォーカープラス イルミネーションガイド",
       "added_on": "2026-11-02"
+    },
+    {
+      "region": "埼玉県",
+      "name": "令和8年度 入間航空祭",
+      "url": "https://www.mod.go.jp/asdf/iruma/kouhou/public_airshow/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "茨城県",
+      "name": "百里基地開庁60周年記念航空祭",
+      "url": "https://www.mod.go.jp/asdf/hyakuri/2-5_pr/2-5-1_koukuusai.html",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "東京都",
+      "name": "小沢製作所 オープンファクトリー2026",
+      "url": "https://of.ozawass.co.jp/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "全国（対象13都県を抽出）",
+      "name": "航空自衛隊 航空祭・イベント公式",
+      "url": "https://www.mod.go.jp/asdf/event/cat-kouku/",
+      "type": "official_directory"
+    },
+    {
+      "region": "東京都",
+      "name": "東京都のオープンファクトリー特集",
+      "url": "https://www.gotokyo.org/jp/event/openfactory/202611.html",
+      "type": "official_directory"
     }
   ],
   "collection_policy": {
