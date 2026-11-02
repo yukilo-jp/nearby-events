@@ -252,7 +252,15 @@
       "last_checked_on": "2026-11-02",
       "announced_year": 2026,
       "next_year_status": "official_announcement_not_found",
-      "pending": "2026年の会場住所・座標の確認"
+      "pending": "2026年のイベント来場入口・駐車場の公式案内確認（施設代表地点登録済み）",
+      "venue_reference": {
+        "year": 2026,
+        "name": "本田技術研究所 四輪R&Dセンター（栃木）特設会場",
+        "address": "栃木県芳賀郡芳賀町下高根沢4630",
+        "address_source_url": "https://global.honda/jp/RandD/about/cpgc/",
+        "coordinate_source_url": "https://mapfan.com/spots/SWYI,J,M2EKY",
+        "confirmation": "ユーザー指定会場を施設情報で照合。翌年の会場には自動流用しない。"
+      }
     }
   ]
 }
