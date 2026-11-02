@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "対象13都県の全イベントを網羅していません。今回は栃木県の施設公式情報を追加確認。会場座標未確認のイベントは半径検索から除外します。",
+  "coverage_note": "対象13都県の全イベントを網羅していません。栃木県の施設公式情報と今季イルミネーションを収集。会場座標未確認のイベントは半径検索から除外します。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -305,6 +305,82 @@
       "checked_on": "2026-11-02",
       "coordinate_status": "venue_approximate",
       "coordinate_source_url": "https://mapfan.com/spots/SCQ5C,FJII,0"
+    },
+    {
+      "id": "ashikaga-20261017-illumination",
+      "title": "光の花の庭 Flower Fantasy 2026–2027",
+      "start_date": "2026-10-17",
+      "end_date": "2027-02-14",
+      "start_time": "",
+      "end_time": "",
+      "prefecture": "栃木県",
+      "municipality": "足利市",
+      "venue": "あしかがフラワーパーク",
+      "address": "栃木県足利市迫間町607",
+      "latitude": 36.3138814,
+      "longitude": 139.5196918,
+      "official_url": "https://www.ashikaga.co.jp/flowerfantasy_special2026/jp/",
+      "source_url": "https://www.ashikaga.co.jp/flowerfantasy_special2026/jp/",
+      "source_name": "あしかがフラワーパーク公式",
+      "coordinate_source_url": "https://mapfan.com/spots/SC54Q,J,MR",
+      "coordinate_status": "venue_approximate",
+      "checked_on": "2026-11-02",
+      "summary": "花を光で表現する園内イルミネーション。点灯は通常17時頃、11/7〜1/3は16:30頃。閉園は時期・曜日で20:30〜21:30。12/31休園、有料。詳細は公式で確認。",
+      "category": "イルミネーション・ライトアップ",
+      "excluded_dates": [
+        "2026-12-31"
+      ]
+    },
+    {
+      "id": "utsunomiya-20261119-illumination",
+      "title": "うつのみやイルミネーション2026",
+      "start_date": "2026-11-19",
+      "end_date": "2027-01-17",
+      "start_time": "",
+      "end_time": "",
+      "prefecture": "栃木県",
+      "municipality": "宇都宮市",
+      "venue": "オリオンスクエア・釜川プロムナードほか中心市街地",
+      "address": "栃木県宇都宮市江野町8-3（代表地点）",
+      "latitude": 36.5599924,
+      "longitude": 139.8823374,
+      "official_url": "https://www.utsunomiya-cvb.org/event/detail_30068.html",
+      "source_url": "https://www.utsunomiya-cvb.org/event/detail_30068.html",
+      "source_name": "宇都宮観光コンベンション協会",
+      "coordinate_source_url": "https://www.utsunomiya-cvb.org/event/detail_30068.html",
+      "coordinate_status": "venue_approximate",
+      "checked_on": "2026-11-02",
+      "summary": "オリオン通りや釜川沿いなど市街地を光で飾る催し。点灯時間は公式案内で確認。距離・ナビは代表地点のオリオンスクエア基準。",
+      "category": "イルミネーション・ライトアップ"
+    },
+    {
+      "id": "shimotsuke-20261122-grimmillumination",
+      "title": "第16回 グリムの森イルミネーション",
+      "start_date": "2026-11-22",
+      "end_date": "2027-01-03",
+      "start_time": "17:00",
+      "end_time": "",
+      "prefecture": "栃木県",
+      "municipality": "下野市",
+      "venue": "グリムの森",
+      "address": "栃木県下野市下古山747",
+      "latitude": 36.449057,
+      "longitude": 139.8593551,
+      "official_url": "https://shimotsuke-pr.jp/グリムの森イルミネーション/",
+      "source_url": "https://shimotsuke-pr.jp/グリムの森イルミネーション/",
+      "source_name": "下野市シティプロモーション プチハピしもつけ",
+      "coordinate_source_url": "https://shimotsuke-pr.jp/グリムの森イルミネーション/",
+      "coordinate_status": "venue_approximate",
+      "checked_on": "2026-11-02",
+      "summary": "森と童話をモチーフにした光の催し。17時点灯、平日20時・土日祝21時まで。11/24・12/1・8・15・22は休灯。荒天時は中止の場合あり。",
+      "category": "イルミネーション・ライトアップ",
+      "excluded_dates": [
+        "2026-11-24",
+        "2026-12-01",
+        "2026-12-08",
+        "2026-12-15",
+        "2026-12-22"
+      ]
     }
   ],
   "generated_on": "2026-11-02",
@@ -334,5 +410,5 @@
       "福島県"
     ]
   },
-  "coverage_label": "栃木県の市貝町・益子町・宇都宮市"
+  "coverage_label": "栃木県の市貝町・益子町・宇都宮市・足利市・下野市"
 }
