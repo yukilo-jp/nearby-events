@@ -1,6 +1,25 @@
 {
   "schema_version": 1,
-  "status": "initializing",
-  "area": "栃木県市貝町周辺",
-  "contains_personal_location": false
+  "status": "partial",
+  "checked_on": "2026-11-02",
+  "target_regions": [
+    "関東",
+    "甲信越",
+    "南東北"
+  ],
+  "published_municipalities": [
+    "栃木県市貝町",
+    "栃木県益子町",
+    "栃木県宇都宮市"
+  ],
+  "published_events": 5,
+  "located_events": 4,
+  "unlocated_events": 1,
+  "contains_personal_location": false,
+  "automation": {
+    "schedule": "毎日06:00 Asia/Tokyo",
+    "environment": "local Codex; Mac must be awake and app running",
+    "unattended_first_run_verified": false
+  },
+  "note": "初期データと手動書き込み・配信読み込みを検証。対象地域の全イベントを網羅していません。"
 }
