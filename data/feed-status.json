@@ -12,8 +12,8 @@
     "栃木県益子町",
     "栃木県宇都宮市"
   ],
-  "published_events": 5,
-  "located_events": 4,
+  "published_events": 14,
+  "located_events": 13,
   "unlocated_events": 1,
   "contains_personal_location": false,
   "automation": {
@@ -21,5 +21,34 @@
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "初期データと手動書き込み・配信読み込みを検証。対象地域の全イベントを網羅していません。"
+  "note": "手動で臨時収集し公式で照合した9件を追加。対象全域は未網羅。無人実行の検証とは別。",
+  "manual_run": {
+    "checked_on": "2026-11-02",
+    "scope": "今回の臨時収集は栃木県の市貝町・宇都宮市周辺。13都県全域の確認ではない。",
+    "added_events": 9,
+    "verified_sources": [
+      "ベルモール",
+      "あぜみち西川田店",
+      "道の駅サシバの里いちかい",
+      "FKDインターパーク店"
+    ],
+    "discovery_sources": [
+      "ウォーカープラス",
+      "関東道の駅公式"
+    ],
+    "deferred": [
+      {
+        "url": "https://www.aeon.jp/sc/oyama/",
+        "reason": "取得時404。イベント確定を保留"
+      },
+      {
+        "url": "https://www.mamahapi.jp/event/oyama_20261126/",
+        "reason": "403。開催日・参加条件の公式再確認を保留"
+      }
+    ],
+    "notes": [
+      "ベルモールのプラネタリウムは公式の日付欄2026-11-21〜23を採用。タイトルの曜日表記に不一致あり。",
+      "会場座標は施設位置の概略。方向・距離は直線距離。"
+    ]
+  }
 }
