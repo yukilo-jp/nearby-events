@@ -17,9 +17,9 @@
     "茨城県小美玉市",
     "東京都八王子市"
   ],
-  "published_events": 20,
+  "published_events": 21,
   "located_events": 19,
-  "unlocated_events": 1,
+  "unlocated_events": 2,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
@@ -71,5 +71,23 @@
     "checked_on": "2026-11-02",
     "added_events": 3,
     "note": "入間・百里の一般公開日と小沢製作所の工場公開を確認。百里の時間未公表。日産栃木の10月の感謝祭は終了済みのため追加せず。"
-  }
+  },
+  "recurring_checks": [
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "checked_on": "2026-11-02",
+      "year": 2026,
+      "status": "announced_location_pending",
+      "start_date": "2026-11-29",
+      "source_url": "https://www.26hondafes-heartstudios.com/",
+      "pending": "今年のアクセス・会場座標は未確認。距離検索では非表示。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2027,
+      "checked_on": "2026-11-02",
+      "status": "official_announcement_not_found",
+      "note": "27HondaFes／2027 Honda祭り・芳賀で検索。次年度公式発表を確認できず、継続監視。"
+    }
+  ]
 }
