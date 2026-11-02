@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "対象13都県の全イベントを網羅していません。栃木県の施設公式情報と今季イルミネーションを収集。会場座標未確認のイベントは半径検索から除外します。",
+  "coverage_note": "対象13都県の全イベントを網羅していません。確認済みの施設催事・イルミネーション・航空祭・工場公開を掲載。会場座標未確認のイベントは半径検索から除外します。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -381,6 +381,73 @@
         "2026-12-15",
         "2026-12-22"
       ]
+    },
+    {
+      "id": "iruma-20261103-airshow",
+      "title": "令和8年度 入間航空祭",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-03",
+      "start_time": "08:00",
+      "end_time": "15:00",
+      "prefecture": "埼玉県",
+      "municipality": "狭山市",
+      "venue": "航空自衛隊 入間基地",
+      "address": "埼玉県狭山市稲荷山（基地代表地点）",
+      "latitude": 35.83944,
+      "longitude": 139.40115,
+      "official_url": "https://www.mod.go.jp/asdf/iruma/kouhou/public_airshow/",
+      "source_url": "https://www.mod.go.jp/asdf/iruma/kouhou/public_airshow/",
+      "source_name": "航空自衛隊 入間基地",
+      "coordinate_source_url": "https://mapcarta.com/W73743248",
+      "coordinate_status": "venue_approximate",
+      "checked_on": "2026-11-02",
+      "summary": "航空機の飛行・地上展示など。入場無料、事前予約不要。会場への入口と持込制限は公式案内で確認。距離は基地代表地点で、入場門とは異なります。",
+      "category": "航空祭・基地公開"
+    },
+    {
+      "id": "hyakuri-20261206-airshow",
+      "title": "百里基地開庁60周年記念航空祭",
+      "start_date": "2026-12-06",
+      "end_date": "2026-12-06",
+      "start_time": "",
+      "end_time": "",
+      "prefecture": "茨城県",
+      "municipality": "小美玉市",
+      "venue": "航空自衛隊 百里基地",
+      "address": "茨城県小美玉市百里（基地代表地点）",
+      "latitude": 36.1891548,
+      "longitude": 140.4251708,
+      "official_url": "https://www.mod.go.jp/asdf/hyakuri/2-5_pr/2-5-1_koukuusai.html",
+      "source_url": "https://www.mod.go.jp/asdf/hyakuri/2-5_pr/2-5-1_koukuusai.html",
+      "source_name": "航空自衛隊 百里基地・ひたちなか市",
+      "coordinate_source_url": "https://mapfan.com/spots/SYHA4%2CJ%2C5EDYY0",
+      "coordinate_status": "venue_approximate",
+      "checked_on": "2026-11-02",
+      "summary": "一般公開は12/6、入場無料。時刻・展示詳細は順次公表。入場は正門、一般車の駐車場なし。距離・ナビは基地代表地点のため入口を公式で確認。",
+      "category": "航空祭・基地公開",
+      "verification_url": "https://www.city.hitachinaka.lg.jp/kurashi/shobo/1007111/1011011.html"
+    },
+    {
+      "id": "ozawa-20261114-openfactory",
+      "title": "小沢製作所 オープンファクトリー2026",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "start_time": "10:00",
+      "end_time": "16:30",
+      "prefecture": "東京都",
+      "municipality": "八王子市",
+      "venue": "有限会社小沢製作所",
+      "address": "東京都八王子市美山町2161-6",
+      "latitude": 35.6973875,
+      "longitude": 139.2410434,
+      "official_url": "https://of.ozawass.co.jp/",
+      "source_url": "https://of.ozawass.co.jp/",
+      "source_name": "小沢製作所公式",
+      "coordinate_source_url": "https://www.google.com/maps?q=東京都八王子市美山町2161-6&output=embed",
+      "coordinate_status": "venue_approximate",
+      "checked_on": "2026-11-02",
+      "summary": "金属加工の工場見学とものづくり体験。無料見学は予約不要、12〜13時休止、受付16時まで。有料体験は要予約。つま先の隠れた靴で来場。",
+      "category": "企業・工場一般公開"
     }
   ],
   "generated_on": "2026-11-02",
@@ -410,5 +477,5 @@
       "福島県"
     ]
   },
-  "coverage_label": "栃木県の市貝町・益子町・宇都宮市・足利市・下野市"
+  "coverage_label": "栃木県の5市町・埼玉県狭山市・茨城県小美玉市・東京都八王子市"
 }
