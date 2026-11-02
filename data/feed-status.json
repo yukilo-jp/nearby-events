@@ -10,10 +10,12 @@
   "published_municipalities": [
     "栃木県市貝町",
     "栃木県益子町",
-    "栃木県宇都宮市"
+    "栃木県宇都宮市",
+    "栃木県足利市",
+    "栃木県下野市"
   ],
-  "published_events": 14,
-  "located_events": 13,
+  "published_events": 17,
+  "located_events": 16,
   "unlocated_events": 1,
   "contains_personal_location": false,
   "automation": {
@@ -49,6 +51,17 @@
     "notes": [
       "ベルモールのプラネタリウムは公式の日付欄2026-11-21〜23を採用。タイトルの曜日表記に不一致あり。",
       "会場座標は施設位置の概略。方向・距離は直線距離。"
+    ]
+  },
+  "illumination_run": {
+    "checked_on": "2026-11-02",
+    "added_events": 3,
+    "note": "あしかが・宇都宮・グリムの森の今季公式情報。時刻変動は概要、休灯日は除外日。宇都宮は点灯時刻未確認。",
+    "deferred_sources": [
+      {
+        "url": "https://www.grimm-no.net/",
+        "reason": "403のため市のシティプロモーションページで確認"
+      }
     ]
   }
 }
