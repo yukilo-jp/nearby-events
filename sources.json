@@ -205,6 +205,13 @@
       "name": "東京都のオープンファクトリー特集",
       "url": "https://www.gotokyo.org/jp/event/openfactory/202611.html",
       "type": "official_directory"
+    },
+    {
+      "name": "26HondaFes（双友会・芳賀／さくら地区）",
+      "region": "栃木県",
+      "url": "https://www.26hondafes-heartstudios.com/",
+      "type": "official",
+      "recurring_event_id": "honda-soyukai-haga-sakura"
     }
   ],
   "collection_policy": {
@@ -218,5 +225,34 @@
     ],
     "discovery": "対象13都県の地域名・施設名で公式サイトを探し、施設一覧から各店舗のイベント・催事・お知らせへ進む。登録URLだけに限定しない。",
     "verification": "ポータルで発見した情報は会場・主催者公式で照合。支店・会場・日時・予約条件を区別。通常営業や日付のない広告を催しとして登録しない。"
-  }
+  },
+  "recurring_watchlist": [
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "name": "HondaFes／Honda祭り（双友会・芳賀／さくら地区）",
+      "organizer": "本田技研工業株式会社 双友会",
+      "aliases": [
+        "HondaFes",
+        "Honda Fes",
+        "Honda祭り",
+        "Honda祭",
+        "ホンダ祭り",
+        "双友会",
+        "芳賀地区",
+        "さくら地区"
+      ],
+      "official_entrypoints": [
+        "https://www.26hondafes-heartstudios.com/",
+        "https://25soyukai.wixsite.com/mysite"
+      ],
+      "priority": "user_requested_annual",
+      "recurrence": "annual_monitor_only",
+      "search_policy": "毎回の定期収集で、実行年と翌年の年号・下2桁の年号を各別名と組み合わせて検索。60日先の期間制限とは独立に開催発表を確認。前年度公式サイトの次年度案内とリンク先を追跡する。固定ドメインや日付に依存しない。",
+      "publication_policy": "開催確定は当該年の公式発表に限る。前年日程・会場・座標・出演者を流用しない。翌年の発表未確認は未発表／未確認として状態を残し、開催予定を捏造しない。開催終了後も監視登録は残す。",
+      "last_checked_on": "2026-11-02",
+      "announced_year": 2026,
+      "next_year_status": "official_announcement_not_found",
+      "pending": "2026年の会場住所・座標の確認"
+    }
+  ]
 }
