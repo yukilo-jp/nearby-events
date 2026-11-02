@@ -15,11 +15,12 @@
     "栃木県下野市",
     "埼玉県狭山市",
     "茨城県小美玉市",
-    "東京都八王子市"
+    "東京都八王子市",
+    "栃木県芳賀町"
   ],
   "published_events": 21,
-  "located_events": 19,
-  "unlocated_events": 2,
+  "located_events": 20,
+  "unlocated_events": 1,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
@@ -77,10 +78,11 @@
       "id": "honda-soyukai-haga-sakura",
       "checked_on": "2026-11-02",
       "year": 2026,
-      "status": "announced_location_pending",
+      "status": "announced_venue_reference_located",
       "start_date": "2026-11-29",
       "source_url": "https://www.26hondafes-heartstudios.com/",
-      "pending": "今年のアクセス・会場座標は未確認。距離検索では非表示。"
+      "pending": "施設代表地点を登録。来場入口・駐車場の公式案内は継続確認。",
+      "venue_confirmation": "会場施設はユーザー提供情報。施設住所はHonda公式、代表座標は公開地図で照合。イベント用入口・駐車場位置は別途公式確認。"
     },
     {
       "id": "honda-soyukai-haga-sakura",
