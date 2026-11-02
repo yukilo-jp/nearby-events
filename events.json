@@ -458,19 +458,22 @@
       "end_time": "17:30",
       "prefecture": "栃木県",
       "municipality": "芳賀町",
-      "venue": "本田技研工業 特設会場（今年のアクセス詳細確認待ち）",
-      "address": "",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
-      "summary": "双友会主催の催し。一般入場可、入場無料。ステージ・展示等は原則予約不要、一部体験は事前抽選。雨天決行、荒天時は中止・変更の場合あり。",
+      "venue": "本田技術研究所 四輪R&Dセンター（栃木）特設会場",
+      "address": "栃木県芳賀郡芳賀町下高根沢4630",
+      "latitude": 36.5814067,
+      "longitude": 140.0111801,
+      "coordinate_status": "venue_approximate",
+      "summary": "双友会主催。一般入場可・無料、一部体験は事前抽選。雨天決行、荒天時は変更・中止あり。距離とナビは施設代表地点のため、来場入口・駐車場は公式案内を確認。",
       "official_url": "https://www.26hondafes-heartstudios.com/",
       "source_name": "26HondaFes公式（双友会）",
       "source_url": "https://www.26hondafes-heartstudios.com/q-a",
       "verification_url": "https://25soyukai.wixsite.com/mysite",
       "checked_on": "2026-11-02",
       "category": "企業・工場イベント",
-      "recurring_event_id": "honda-soyukai-haga-sakura"
+      "recurring_event_id": "honda-soyukai-haga-sakura",
+      "coordinate_source_url": "https://mapfan.com/spots/SWYI,J,M2EKY",
+      "address_source_url": "https://global.honda/jp/RandD/about/cpgc/",
+      "venue_confirmation": "会場施設はユーザー提供情報。施設住所はHonda公式、代表座標は公開地図で照合。イベント用入口・駐車場位置は別途公式確認。"
     }
   ],
   "generated_on": "2026-11-02",
@@ -500,5 +503,5 @@
       "福島県"
     ]
   },
-  "coverage_label": "栃木県の5市町・埼玉県狭山市・茨城県小美玉市・東京都八王子市"
+  "coverage_label": "栃木県の5市町・埼玉県狭山市・茨城県小美玉市・東京都八王子市・栃木県芳賀町"
 }
