@@ -12,10 +12,13 @@
     "栃木県益子町",
     "栃木県宇都宮市",
     "栃木県足利市",
-    "栃木県下野市"
+    "栃木県下野市",
+    "埼玉県狭山市",
+    "茨城県小美玉市",
+    "東京都八王子市"
   ],
-  "published_events": 17,
-  "located_events": 16,
+  "published_events": 20,
+  "located_events": 19,
   "unlocated_events": 1,
   "contains_personal_location": false,
   "automation": {
@@ -63,5 +66,10 @@
         "reason": "403のため市のシティプロモーションページで確認"
       }
     ]
+  },
+  "air_factory_run": {
+    "checked_on": "2026-11-02",
+    "added_events": 3,
+    "note": "入間・百里の一般公開日と小沢製作所の工場公開を確認。百里の時間未公表。日産栃木の10月の感謝祭は終了済みのため追加せず。"
   }
 }
