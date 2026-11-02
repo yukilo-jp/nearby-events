@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "公式情報を確認した初期3件。市貝町周辺50km圏の全イベントを網羅していません。座標未確認のイベントは半径検索から除外します。",
+  "coverage_note": "初期データ。対象13都県の全イベントを網羅していません。座標未確認のイベントは半径検索から除外します。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -72,6 +72,50 @@
       "source_url": "https://www.town.mashiko.lg.jp/page/page002441.html",
       "checked_on": "2026-11-02",
       "coordinate_status": "unverified"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "宇都宮市",
+      "source_name": "宇都宮観光コンベンション協会",
+      "checked_on": "2026-11-02",
+      "coordinate_status": "official_map",
+      "id": "utsunomiya-20261107-gyoza",
+      "title": "宇都宮餃子祭り 2026",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "venue": "宇都宮城址公園",
+      "address": "栃木県宇都宮市本丸町1-15",
+      "latitude": 36.5544223,
+      "longitude": 139.8858647,
+      "summary": "さまざまな店の餃子を食べ比べられる催し。ステージ企画も開催。入場無料、飲食は有料。",
+      "official_url": "https://www.utsunomiya-cvb.org/event/detail_20003.html",
+      "source_url": "https://www.utsunomiya-cvb.org/event/detail_20003.html",
+      "discovery_url": "https://www.flat-local.jp/event/5918/",
+      "coordinate_source_url": "https://www.utsunomiya-cvb.org/event/detail_20003.html"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "宇都宮市",
+      "source_name": "宇都宮観光コンベンション協会",
+      "checked_on": "2026-11-02",
+      "coordinate_status": "official_map",
+      "id": "utsunomiya-20261107-orionjazz",
+      "title": "オリオンジャズ 2026",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "start_time": "13:00",
+      "end_time": "19:00",
+      "venue": "オリオン通り曲師町イベント広場",
+      "address": "栃木県宇都宮市曲師町旧奥州街道",
+      "latitude": 36.56008477216027,
+      "longitude": 139.8842154443264,
+      "summary": "商店街の特設ステージでジャズの演奏を楽しめる街なかの音楽イベント。",
+      "official_url": "https://www.utsunomiya-cvb.org/event/detail_30188.html",
+      "source_url": "https://www.utsunomiya-cvb.org/event/detail_30188.html",
+      "discovery_url": "https://www.flat-local.jp/event/5182/",
+      "coordinate_source_url": "https://www.utsunomiya-cvb.org/event/detail_30188.html"
     }
   ],
   "generated_on": "2026-11-02",
@@ -79,5 +123,27 @@
     "2026-11-03",
     "2026-11-23"
   ],
-  "holiday_source_url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+  "holiday_source_url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+  "target_regions": {
+    "関東": [
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県"
+    ],
+    "甲信越": [
+      "山梨県",
+      "長野県",
+      "新潟県"
+    ],
+    "南東北": [
+      "宮城県",
+      "山形県",
+      "福島県"
+    ]
+  },
+  "coverage_label": "栃木県の市貝町・益子町・宇都宮市"
 }
