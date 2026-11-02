@@ -1,22 +1,165 @@
 {
   "note": "収集の入口です。各イベントは会場・主催者の公式情報でも照合し、利用条件を確認します。",
   "sources": [
-    {"region":"栃木県","name":"市貝町公式イベント","url":"https://www.town.ichikai.tochigi.jp/info/1728"},
-    {"region":"栃木県","name":"益子町公式イベント","url":"https://www.town.mashiko.lg.jp/page/page002441.html"},
-    {"region":"北関東","name":"ふらっとろーかる","url":"https://www.flat-local.jp/"},
-    {"region":"栃木県","name":"宇都宮観光ナビ","url":"https://www.utsunomiya-cvb.org/"},
-    {"region":"栃木県","name":"とちぎ旅ネット","url":"https://www.tochigiji.or.jp/event/?sort=rank"},
-    {"region":"茨城県","name":"観光いばらき","url":"https://www.ibarakiguide.jp/"},
-    {"region":"群馬県","name":"心にググっと観光ぐんま","url":"https://gunma-kanko.jp/events"},
-    {"region":"埼玉県","name":"ちょこたび埼玉","url":"https://chocotabi-saitama.jp/"},
-    {"region":"東京都","name":"GO TOKYO","url":"https://www.gotokyo.org/en/calendar/index.html"},
-    {"region":"千葉県","name":"ちば観光ナビ","url":"https://maruchiba.jp/event/index_1.html"},
-    {"region":"神奈川県","name":"観光かながわNOW","url":"https://www.kanagawa-kankou.or.jp/event?sort=event_begin_at"},
-    {"region":"山梨県","name":"山梨県市町村イベント情報","url":"https://www.pref.yamanashi.jp/shichoson/ibennto_jyouhou.html"},
-    {"region":"長野県","name":"Go NAGANO","url":"https://db.go-nagano.net/event/?hsLang=ja-jp"},
-    {"region":"新潟県","name":"にいがた観光ナビ","url":"https://niigata-kankou.or.jp/"},
-    {"region":"宮城県","name":"せんだい旅日和","url":"https://www.sentabi.jp/?post_type=event"},
-    {"region":"山形県","name":"やまがたへの旅","url":"https://yamagatakanko.com/festivals/"},
-    {"region":"福島県","name":"福島市観光ノート","url":"https://www.f-kankou.jp/event"}
-  ]
+    {
+      "region": "栃木県",
+      "name": "市貝町公式イベント",
+      "url": "https://www.town.ichikai.tochigi.jp/info/1728"
+    },
+    {
+      "region": "栃木県",
+      "name": "益子町公式イベント",
+      "url": "https://www.town.mashiko.lg.jp/page/page002441.html"
+    },
+    {
+      "region": "北関東",
+      "name": "ふらっとろーかる",
+      "url": "https://www.flat-local.jp/"
+    },
+    {
+      "region": "栃木県",
+      "name": "宇都宮観光ナビ",
+      "url": "https://www.utsunomiya-cvb.org/"
+    },
+    {
+      "region": "栃木県",
+      "name": "とちぎ旅ネット",
+      "url": "https://www.tochigiji.or.jp/event/?sort=rank"
+    },
+    {
+      "region": "茨城県",
+      "name": "観光いばらき",
+      "url": "https://www.ibarakiguide.jp/"
+    },
+    {
+      "region": "群馬県",
+      "name": "心にググっと観光ぐんま",
+      "url": "https://gunma-kanko.jp/events"
+    },
+    {
+      "region": "埼玉県",
+      "name": "ちょこたび埼玉",
+      "url": "https://chocotabi-saitama.jp/"
+    },
+    {
+      "region": "東京都",
+      "name": "GO TOKYO",
+      "url": "https://www.gotokyo.org/en/calendar/index.html"
+    },
+    {
+      "region": "千葉県",
+      "name": "ちば観光ナビ",
+      "url": "https://maruchiba.jp/event/index_1.html"
+    },
+    {
+      "region": "神奈川県",
+      "name": "観光かながわNOW",
+      "url": "https://www.kanagawa-kankou.or.jp/event?sort=event_begin_at"
+    },
+    {
+      "region": "山梨県",
+      "name": "山梨県市町村イベント情報",
+      "url": "https://www.pref.yamanashi.jp/shichoson/ibennto_jyouhou.html"
+    },
+    {
+      "region": "長野県",
+      "name": "Go NAGANO",
+      "url": "https://db.go-nagano.net/event/?hsLang=ja-jp"
+    },
+    {
+      "region": "新潟県",
+      "name": "にいがた観光ナビ",
+      "url": "https://niigata-kankou.or.jp/"
+    },
+    {
+      "region": "宮城県",
+      "name": "せんだい旅日和",
+      "url": "https://www.sentabi.jp/?post_type=event"
+    },
+    {
+      "region": "山形県",
+      "name": "やまがたへの旅",
+      "url": "https://yamagatakanko.com/festivals/"
+    },
+    {
+      "region": "福島県",
+      "name": "福島市観光ノート",
+      "url": "https://www.f-kankou.jp/event"
+    },
+    {
+      "region": "対象13都県",
+      "name": "ウォーカープラス イベント検索",
+      "url": "https://www.walkerplus.com/info/search/event/",
+      "type": "discovery",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "関東・甲信越",
+      "name": "関東道の駅公式・各駅の公式リンク",
+      "url": "https://www.kanto-michinoeki.jp/",
+      "type": "official_directory",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "栃木県",
+      "name": "道の駅サシバの里いちかい",
+      "url": "https://www.michinoeki-ichikai.jp/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "栃木県",
+      "name": "道の駅ましこ",
+      "url": "https://m-mashiko.com/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "栃木県・茨城県",
+      "name": "農産直売所あぜみち（各店舗のお知らせ）",
+      "url": "https://minnano-azemichi.com/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "栃木県",
+      "name": "ベルモール イベント",
+      "url": "https://www.bellmall.co.jp/event/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "栃木県",
+      "name": "FKD・福田屋 各店舗イベント",
+      "url": "https://www.fukudaya.net/event/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "対象13都県",
+      "name": "イオングループ店舗一覧・各店公式イベント",
+      "url": "https://www.aeon.com/store/",
+      "type": "official_directory",
+      "added_on": "2026-11-02"
+    },
+    {
+      "region": "栃木県",
+      "name": "イオンモール小山",
+      "url": "https://www.aeon.jp/sc/oyama/",
+      "type": "official",
+      "added_on": "2026-11-02"
+    }
+  ],
+  "collection_policy": {
+    "categories": [
+      "自治体・市区町村のイベントカレンダー",
+      "道の駅",
+      "農産直売所（あぜみち等）",
+      "ショッピングモール（イオン・ベルモール・FKD等）",
+      "観光協会・主催者",
+      "ウォーカープラス・ふらっとろーかる"
+    ],
+    "discovery": "対象13都県の地域名・施設名で公式サイトを探し、施設一覧から各店舗のイベント・催事・お知らせへ進む。登録URLだけに限定しない。",
+    "verification": "ポータルで発見した情報は会場・主催者公式で照合。支店・会場・日時・予約条件を区別。通常営業や日付のない広告を催しとして登録しない。"
+  }
 }
