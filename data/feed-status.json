@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "partial",
-  "checked_on": "2026-11-02",
+  "checked_on": "2026-11-03",
   "target_regions": [
     "関東",
     "甲信越",
@@ -18,44 +18,46 @@
     "東京都八王子市",
     "栃木県芳賀町"
   ],
-  "published_events": 21,
-  "located_events": 20,
-  "unlocated_events": 1,
+  "published_events": 25,
+  "located_events": 23,
+  "unlocated_events": 2,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "手動で臨時収集し公式で照合した9件を追加。対象全域は未網羅。無人実行の検証とは別。",
+  "note": "対象13都県を網羅していません。今回の臨時確認は益子町と市貝町の公式情報に限定。市貝町の公式イベント一覧を全件確認する手順を再発防止策に追加しました。",
   "manual_run": {
-    "checked_on": "2026-11-02",
-    "scope": "今回の臨時収集は栃木県の市貝町・宇都宮市周辺。13都県全域の確認ではない。",
-    "added_events": 9,
+    "checked_on": "2026-11-03",
+    "scope": "益子町の2026年秋陶器市と、市貝町・道の駅サシバの里いちかいの公式イベント一覧・該当告知を確認。13都県全域の確認ではない。",
+    "added_events": 4,
+    "published_regions": [
+      "栃木県益子町",
+      "栃木県市貝町"
+    ],
     "verified_sources": [
-      "ベルモール",
-      "あぜみち西川田店",
-      "道の駅サシバの里いちかい",
-      "FKDインターパーク店"
-    ],
-    "discovery_sources": [
-      "ウォーカープラス",
-      "関東道の駅公式"
-    ],
-    "deferred": [
-      {
-        "url": "https://www.aeon.jp/sc/oyama/",
-        "reason": "取得時404。イベント確定を保留"
-      },
-      {
-        "url": "https://www.mamahapi.jp/event/oyama_20261126/",
-        "reason": "403。開催日・参加条件の公式再確認を保留"
-      }
+      "益子陶器市公式サイト",
+      "とちぎ旅ネット",
+      "道の駅サシバの里いちかい公式イベント一覧・個別告知"
     ],
     "notes": [
-      "ベルモールのプラネタリウムは公式の日付欄2026-11-21〜23を採用。タイトルの曜日表記に不一致あり。",
-      "会場座標は施設位置の概略。方向・距離は直線距離。"
+      "益子秋の陶器市は2026-10-31〜11-03。最終日当日までの開催中イベントとして掲載し、町内各所開催のため座標は未確認。",
+      "市貝町公式一覧から11/8コラボ企画、11/8オータムマルシェ、10/24〜11/29かかし展示を確認。マルシェの来場時間は公式告知に記載なし。",
+      "市貝町の見落とし原因は、個別告知だけを確認して一覧アーカイブを期間全件走査していなかったこと。"
     ]
+  },
+  "archive_review": {
+    "checked_on": "2026-11-03",
+    "source_name": "道の駅サシバの里いちかい公式イベント一覧",
+    "source_url": "https://www.michinoeki-ichikai.jp/event/",
+    "status": "partial_archive_review",
+    "reviewed_items": [
+      "https://www.michinoeki-ichikai.jp/event/2046/",
+      "https://www.michinoeki-ichikai.jp/event/2007/",
+      "https://www.michinoeki-ichikai.jp/event/1950/"
+    ],
+    "lesson": "公式イベント一覧を開催期間で全件走査し、該当する個別告知を開いて日付・会場・参加条件を照合する。"
   },
   "illumination_run": {
     "checked_on": "2026-11-02",
