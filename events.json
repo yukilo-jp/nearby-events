@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "対象13都県の全イベントを網羅していません。確認済みの施設催事・イルミネーション・航空祭・工場公開を掲載。会場座標未確認のイベントは半径検索から除外します。",
+  "coverage_note": "対象13都県の全イベントを網羅していません。今回、道の駅サシバの里いちかいのイベント一覧をたどり、11/8企画・マルシェ、11/29までの展示を追加確認。益子陶器市は11/3最終日。会場座標未確認のイベントは半径検索から除外します。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -474,9 +474,97 @@
       "coordinate_source_url": "https://mapfan.com/spots/SWYI,J,M2EKY",
       "address_source_url": "https://global.honda/jp/RandD/about/cpgc/",
       "venue_confirmation": "会場施設はユーザー提供情報。施設住所はHonda公式、代表座標は公開地図で照合。イベント用入口・駐車場位置は別途公式確認。"
+    },
+    {
+      "id": "mashiko-20261031-autumn-toukiichi",
+      "title": "第114回 益子秋の陶器市",
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-03",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "prefecture": "栃木県",
+      "municipality": "益子町",
+      "venue": "益子町内各所（城内坂・道祖土地区中心）",
+      "address": "栃木県芳賀郡益子町内各所",
+      "latitude": null,
+      "longitude": null,
+      "summary": "約50店舗と約800テントが並ぶ陶器市。雨天決行。最終日は16時まで、店舗・テントにより営業時間は異なる。各所に駐車場あり（一部有料）。",
+      "official_url": "https://toukiichi.mashiko-db.net/",
+      "source_name": "益子陶器市公式サイト・とちぎ旅ネット",
+      "source_url": "https://toukiichi.mashiko-db.net/news/",
+      "checked_on": "2026-11-03",
+      "coordinate_status": "unverified",
+      "category": "陶器市・クラフト",
+      "discovery_url": "https://www.tochigiji.or.jp/event/e17560/"
+    },
+    {
+      "id": "ichikai-20261108-sashiba-collab6",
+      "title": "いちかいサシバの里めぐりコラボ企画第6弾",
+      "start_date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "start_time": "",
+      "end_time": "",
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "venue": "道の駅サシバの里いちかい・市貝町内の参加施設",
+      "address": "栃木県芳賀郡市貝町大字市塙1270（道の駅まちおこしセンター）",
+      "latitude": 36.54268896049615,
+      "longitude": 140.095637217164,
+      "summary": "参加施設のイベントを巡るスタンプ企画。最大2,000円分の商品券と交換可。施設ごとに開催時間が異なり、サシバの里自然学校ガイドウォークは11時・13時の2回。引換は道の駅まちおこしセンターで17時まで。",
+      "official_url": "https://www.michinoeki-ichikai.jp/event/2046/",
+      "source_name": "道の駅サシバの里いちかい公式",
+      "source_url": "https://www.michinoeki-ichikai.jp/event/2046/",
+      "checked_on": "2026-11-03",
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.michinoeki-ichikai.jp/access/",
+      "category": "地域周遊・スタンプラリー"
+    },
+    {
+      "id": "ichikai-20261108-autumn-marche",
+      "title": "道の駅サシバの里いちかい オータムマルシェ",
+      "start_date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "start_time": "",
+      "end_time": "",
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "venue": "道の駅サシバの里いちかい",
+      "address": "栃木県芳賀郡市貝町大字市塙1270",
+      "latitude": 36.54268896049615,
+      "longitude": 140.095637217164,
+      "summary": "軽食や手作り雑貨の販売、ワークショップなどを予定。公式告知は出店者募集ページで確認。来場者向けの開催時間は未掲載。",
+      "official_url": "https://www.michinoeki-ichikai.jp/event/2007/",
+      "source_name": "道の駅サシバの里いちかい公式",
+      "source_url": "https://www.michinoeki-ichikai.jp/event/2007/",
+      "checked_on": "2026-11-03",
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.michinoeki-ichikai.jp/access/",
+      "category": "マルシェ"
+    },
+    {
+      "id": "ichikai-20261024-sashiba-kakashi",
+      "title": "第7回 サシバの里かかし祭り（展示）",
+      "start_date": "2026-10-24",
+      "end_date": "2026-11-29",
+      "start_time": "",
+      "end_time": "",
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "venue": "道の駅サシバの里いちかい 西側駐車場",
+      "address": "栃木県芳賀郡市貝町大字市塙1270",
+      "latitude": 36.54268896049615,
+      "longitude": 140.095637217164,
+      "summary": "かかし作品の展示。公式ページで展示期間は10月24日〜11月29日と案内。",
+      "official_url": "https://www.michinoeki-ichikai.jp/event/1950/",
+      "source_name": "道の駅サシバの里いちかい公式",
+      "source_url": "https://www.michinoeki-ichikai.jp/event/1950/",
+      "checked_on": "2026-11-03",
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.michinoeki-ichikai.jp/access/",
+      "category": "展示"
     }
   ],
-  "generated_on": "2026-11-02",
+  "generated_on": "2026-11-03",
   "holiday_dates": [
     "2026-11-03",
     "2026-11-23"
@@ -503,5 +591,5 @@
       "福島県"
     ]
   },
-  "coverage_label": "栃木県の5市町・埼玉県狭山市・茨城県小美玉市・東京都八王子市・栃木県芳賀町"
+  "coverage_label": "栃木県の5市町・埼玉県狭山市・茨城県小美玉市・東京都八王子市・栃木県芳賀町・益子町内各所"
 }
