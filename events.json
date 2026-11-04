@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "13都県の全域・全施設を網羅していません。2026-11-04までに公式情報を個別確認できたイベントを掲載。2026-11-05に第10回うずまの竹あかりの開催情報と会場範囲を栃木市観光協会で再確認し、利用者指定のきららの杜とちぎ蔵の街楽習館付近を距離表示用の概算代表地点として登録しました。道の駅やまがた蔵王の7催事に施設座標を反映しました。状況はpartialです。",
+  "coverage_note": "13都県の全域・全施設を網羅していません。2026-11-04までに公式情報を個別確認できたイベントを掲載。2026-11-05に第10回うずまの竹あかりの開催情報と会場範囲を栃木市観光協会で再確認し、利用者指定のきららの杜とちぎ蔵の街楽習館付近を距離表示用の概算代表地点として登録しました。道の駅やまがた蔵王の7催事に施設座標を反映しました。状況はpartialです。 2026-11-05に、公式施設アクセス地図・自治体公式地図で位置を確認できた単独会場11件へ概算代表座標を追加しました。住所と施設の同定は公式情報に基づきます。複数会場や広域回遊型の催し、公式地図上でピンを確認できなかった施設は未設定のままです。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -859,14 +859,15 @@
       "municipality": "土浦市",
       "venue": "霞ケ浦環境科学センター",
       "address": "土浦市沖宿町1853",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 36.0757323,
+      "longitude": 140.2663459,
       "summary": "電子顕微鏡で観察する体験。午前・午後の回があり各回10:00〜11:35、13:00〜14:35。公式予定表で募集中。",
       "official_url": "https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/03_event/event_schedule2026.htm",
       "source_name": "茨城県霞ケ浦環境科学センター",
       "source_url": "https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/03_event/event_schedule2026.htm",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified"
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/02_shisetsu/map_access/map_access.htm"
     },
     {
       "id": "ibaraki-20261114-seeds",
@@ -877,14 +878,15 @@
       "municipality": "土浦市",
       "venue": "霞ケ浦環境科学センター",
       "address": "土浦市沖宿町1853",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 36.0757323,
+      "longitude": 140.2663459,
       "summary": "種を集めて観察・工作する体験。未就学児〜中学生、小学生未満は保護者同伴。締切11/6正午、応募多数時抽選。",
       "official_url": "https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/03_event/event_schedule2026.htm",
       "source_name": "茨城県霞ケ浦環境科学センター",
       "source_url": "https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/03_event/event_schedule2026.htm",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified"
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.pref.ibaraki.jp/soshiki/seikatsukankyo/kasumigauraesc/02_shisetsu/map_access/map_access.htm"
     },
     {
       "id": "gunma-20261115-tamamura",
@@ -913,17 +915,18 @@
       "municipality": "さいたま市",
       "venue": "コクーンシティ・さいたま新都心東口ペデストリアンデッキ",
       "address": "さいたま市大宮区吉敷町4丁目",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 35.8947905,
+      "longitude": 139.6365685,
       "summary": "冬季イルミネーション。17:00〜23:00。光の演出は毎時00分・30分、最終回22:30。",
       "official_url": "https://www.cocooncity.jp/illumination2026/",
       "source_name": "コクーンシティ公式",
       "source_url": "https://www.cocooncity.jp/illumination2026/",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified",
+      "coordinate_status": "venue_approximate",
       "start_time": "17:00",
       "end_time": "23:00",
-      "category": "イルミネーション・ライトアップ"
+      "category": "イルミネーション・ライトアップ",
+      "coordinate_source_url": "https://www.cocooncity.jp/access"
     },
     {
       "id": "tokyo-20261107-inokashira",
@@ -934,15 +937,16 @@
       "municipality": "武蔵野市",
       "venue": "井の頭自然文化園",
       "address": "武蔵野市御殿山1-17-6",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 35.7007724,
+      "longitude": 139.5727436,
       "summary": "2日間限定で開園時間を20時まで延長。最終入園19時。通常の入園料が必要。",
       "official_url": "https://www.tokyo-zoo.net/inokashira/news/12657/index.html",
       "source_name": "井の頭自然文化園公式",
       "source_url": "https://www.tokyo-zoo.net/inokashira/news/12657/index.html",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified",
-      "end_time": "20:00"
+      "coordinate_status": "venue_approximate",
+      "end_time": "20:00",
+      "coordinate_source_url": "https://www.tokyo-zoo.net/inokashira/visitor-info/access/index.html"
     },
     {
       "id": "kanagawa-20261120-xmas",
@@ -953,14 +957,15 @@
       "municipality": "横浜市",
       "venue": "横浜赤レンガ倉庫 イベント広場・赤レンガパーク",
       "address": "横浜市中区新港1-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 35.4526321,
+      "longitude": 139.6428944,
       "summary": "11/20は17〜21時、11/21〜12/4は11〜21時、12/5〜25は11〜22時。入場料は日時・エリアで異なる。",
       "official_url": "https://www.welcome.city.yokohama.jp/eventinfo/ev_detail.php?bid=yw4365",
       "source_name": "横浜市観光情報サイト",
       "source_url": "https://www.welcome.city.yokohama.jp/eventinfo/ev_detail.php?bid=yw4365",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified"
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.yokohama-akarenga.jp/access/"
     },
     {
       "id": "kanagawa-20261204-yorunoyo",
@@ -1015,15 +1020,16 @@
       "municipality": "さいたま市",
       "venue": "さいたま新都心 けやきひろば",
       "address": "埼玉県さいたま市中央区新都心10番地",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 35.89340371072981,
+      "longitude": 139.63111995963098,
+      "coordinate_status": "venue_approximate",
       "summary": "点灯は17:00～24:00。初日はセレモニーのため17:30頃点灯予定。",
       "official_url": "https://www.saitama-arena.co.jp/event/illumination2026/outline/",
       "source_name": "GMOアリーナさいたま 公式",
       "source_url": "https://www.saitama-arena.co.jp/event/illumination2026/outline/",
       "checked_on": "2026-11-04",
-      "category": "イルミネーション・ライトアップ"
+      "category": "イルミネーション・ライトアップ",
+      "coordinate_source_url": "https://www.city.saitama.lg.jp/004/001/005/002/004/p046530.html"
     },
     {
       "id": "saitama-20261107-keyaki-dance-base",
@@ -1036,14 +1042,15 @@
       "municipality": "さいたま市",
       "venue": "さいたま新都心 けやきひろば",
       "address": "埼玉県さいたま市中央区新都心10番地",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 35.89340371072981,
+      "longitude": 139.63111995963098,
+      "coordinate_status": "venue_approximate",
       "summary": "11月7～8日開催。11月7日は19:00～20:00にNight Stageも予定。入場無料。",
       "official_url": "https://www.saitama-arena.co.jp/event/illumination2026/outline/",
       "source_name": "GMOアリーナさいたま 公式",
       "source_url": "https://www.saitama-arena.co.jp/event/illumination2026/outline/",
-      "checked_on": "2026-11-04"
+      "checked_on": "2026-11-04",
+      "coordinate_source_url": "https://www.city.saitama.lg.jp/004/001/005/002/004/p046530.html"
     },
     {
       "id": "miyagi-20261114-uminomori-night",
@@ -1056,14 +1063,15 @@
       "municipality": "仙台市",
       "venue": "仙台うみの杜水族館",
       "address": "宮城県仙台市宮城野区中野4丁目6番地",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 38.27109277967212,
+      "longitude": 140.97837041533205,
+      "coordinate_status": "venue_approximate",
       "summary": "夜の水族館で周遊型謎解き。最終入館20:00。前売・当日券の定員等は公式案内を確認。",
       "official_url": "https://www.uminomori.jp/umino/nazotoki2026/index.html",
       "source_name": "せんだい旅日和（仙台観光情報サイト）",
       "source_url": "https://www.sentabi.jp/events/203",
-      "checked_on": "2026-11-04"
+      "checked_on": "2026-11-04",
+      "coordinate_source_url": "https://www.uminomori.jp/umino/access/index.html"
     },
     {
       "id": "miyagi-20261122-uminomori-night",
@@ -1076,14 +1084,15 @@
       "municipality": "仙台市",
       "venue": "仙台うみの杜水族館",
       "address": "宮城県仙台市宮城野区中野4丁目6番地",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 38.27109277967212,
+      "longitude": 140.97837041533205,
+      "coordinate_status": "venue_approximate",
       "summary": "夜の水族館で周遊型謎解き。最終入館20:00。前売・当日券の定員等は公式案内を確認。",
       "official_url": "https://www.uminomori.jp/umino/nazotoki2026/index.html",
       "source_name": "せんだい旅日和（仙台観光情報サイト）",
       "source_url": "https://www.sentabi.jp/events/203",
-      "checked_on": "2026-11-04"
+      "checked_on": "2026-11-04",
+      "coordinate_source_url": "https://www.uminomori.jp/umino/access/index.html"
     },
     {
       "id": "ibaraki-20261128-ibaraki-gourmet",
@@ -1096,14 +1105,15 @@
       "municipality": "笠間市",
       "venue": "道の駅かさま",
       "address": "茨城県笠間市手越22-1",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 36.35475418747525,
+      "longitude": 140.26591404489122,
+      "coordinate_status": "venue_approximate",
       "summary": "県北・中央・県央等の事業者が出店する物産展。先着順。",
       "official_url": "https://hitachiomiya-shoko.jp/event/6999/",
       "source_name": "常陸大宮市商工会",
       "source_url": "https://hitachiomiya-shoko.jp/event/6999/",
-      "checked_on": "2026-11-04"
+      "checked_on": "2026-11-04",
+      "coordinate_source_url": "https://m-kasama.com/access"
     },
     {
       "id": "ibaraki-20261205-ibaraki-gourmet",
@@ -1116,14 +1126,15 @@
       "municipality": "笠間市",
       "venue": "道の駅かさま",
       "address": "茨城県笠間市手越22-1",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 36.35475418747525,
+      "longitude": 140.26591404489122,
+      "coordinate_status": "venue_approximate",
       "summary": "県南・県西・鹿行の事業者が出店する物産展。第1弾とは出店者が異なり、先着順。",
       "official_url": "https://hitachiomiya-shoko.jp/event/6999/",
       "source_name": "常陸大宮市商工会",
       "source_url": "https://hitachiomiya-shoko.jp/event/6999/",
-      "checked_on": "2026-11-04"
+      "checked_on": "2026-11-04",
+      "coordinate_source_url": "https://m-kasama.com/access"
     }
   ],
   "generated_on": "2026-11-05",
