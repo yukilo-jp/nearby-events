@@ -800,14 +800,15 @@
       "municipality": "いわき市",
       "venue": "いわき芸術文化交流館アリオス 中劇場",
       "address": "いわき市平字三崎1-6",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 37.0498697,
+      "longitude": 140.88955369999996,
       "summary": "県内の地域文化を紹介する一般参加可能な催し。11/7は14:00〜17:00、11/8は10:00〜17:00。無料。",
       "official_url": "https://www.pref.fukushima.lg.jp/sec/11055a/furusatonomatsuri.html",
       "source_name": "福島県公式",
       "source_url": "https://www.pref.fukushima.lg.jp/sec/11055a/furusatonomatsuri.html",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified"
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000003707/index.html"
     },
     {
       "id": "chiba-20261107-symposium",
