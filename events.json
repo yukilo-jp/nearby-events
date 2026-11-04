@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "13都県の全域・全施設を網羅していません。2026-11-04までに公式情報を個別確認できたイベントを掲載。2026-11-05に第10回うずまの竹あかりの開催情報と会場範囲を栃木市観光協会で再確認し、利用者指定のきららの杜とちぎ蔵の街楽習館付近を距離表示用の概算代表地点として登録しました。状況はpartialです。",
+  "coverage_note": "13都県の全域・全施設を網羅していません。2026-11-04までに公式情報を個別確認できたイベントを掲載。2026-11-05に第10回うずまの竹あかりの開催情報と会場範囲を栃木市観光協会で再確認し、利用者指定のきららの杜とちぎ蔵の街楽習館付近を距離表示用の概算代表地点として登録しました。道の駅やまがた蔵王の7催事に施設座標を反映しました。状況はpartialです。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -594,16 +594,17 @@
       "municipality": "山形市",
       "venue": "道の駅やまがた蔵王 樹氷ホール",
       "address": "山形県山形市表蔵王79-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 38.18944627354761,
+      "longitude": 140.30911699748432,
       "summary": "道の駅の催事スペースで開催されるマルシェ。",
       "official_url": "https://www.m-yzao.com/archives/7864",
       "source_name": "道の駅やまがた蔵王公式",
       "source_url": "https://www.m-yzao.com/archives/7864",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified",
+      "coordinate_status": "venue_approximate",
       "start_time": "10:00",
-      "end_time": "14:00"
+      "end_time": "14:00",
+      "coordinate_source_url": "https://www.m-yzao.com/access"
     },
     {
       "id": "yamagata-20261108-sweetsbread",
@@ -614,16 +615,17 @@
       "municipality": "山形市",
       "venue": "道の駅やまがた蔵王 駅前駐車場",
       "address": "山形県山形市表蔵王79-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 38.18944627354761,
+      "longitude": 140.30911699748432,
       "summary": "山形・福島のスイーツやパンを扱う販売催事。",
       "official_url": "https://www.m-yzao.com/archives/7864",
       "source_name": "道の駅やまがた蔵王公式",
       "source_url": "https://www.m-yzao.com/archives/7864",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified",
+      "coordinate_status": "venue_approximate",
       "start_time": "10:00",
-      "end_time": "16:00"
+      "end_time": "16:00",
+      "coordinate_source_url": "https://www.m-yzao.com/access"
     },
     {
       "id": "yamagata-20261108-marutto",
@@ -634,16 +636,17 @@
       "municipality": "山形市",
       "venue": "道の駅やまがた蔵王 樹氷ホール",
       "address": "山形県山形市表蔵王79-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 38.18944627354761,
+      "longitude": 140.30911699748432,
       "summary": "食とものづくりをテーマにしたマルシェ。",
       "official_url": "https://www.m-yzao.com/archives/7864",
       "source_name": "道の駅やまがた蔵王公式",
       "source_url": "https://www.m-yzao.com/archives/7864",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified",
+      "coordinate_status": "venue_approximate",
       "start_time": "10:00",
-      "end_time": "16:00"
+      "end_time": "16:00",
+      "coordinate_source_url": "https://www.m-yzao.com/access"
     },
     {
       "id": "yamagata-20261114-market",
@@ -654,16 +657,17 @@
       "municipality": "山形市",
       "venue": "道の駅やまがた蔵王 正面入口付近",
       "address": "山形県山形市表蔵王79-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 38.18944627354761,
+      "longitude": 140.30911699748432,
       "summary": "道の駅入口付近で開かれる朝市。",
       "official_url": "https://www.m-yzao.com/archives/7864",
       "source_name": "道の駅やまがた蔵王公式",
       "source_url": "https://www.m-yzao.com/archives/7864",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified",
+      "coordinate_status": "venue_approximate",
       "start_time": "09:00",
-      "end_time": "13:00"
+      "end_time": "13:00",
+      "coordinate_source_url": "https://www.m-yzao.com/access"
     },
     {
       "id": "yamagata-20261114-wood",
@@ -674,16 +678,17 @@
       "municipality": "山形市",
       "venue": "道の駅やまがた蔵王 樹氷ホール",
       "address": "山形県山形市表蔵王79-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 38.18944627354761,
+      "longitude": 140.30911699748432,
       "summary": "山形県産木材を暮らしに取り入れる体験型ワークショップ。",
       "official_url": "https://www.m-yzao.com/archives/7864",
       "source_name": "道の駅やまがた蔵王公式",
       "source_url": "https://www.m-yzao.com/archives/7864",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified",
+      "coordinate_status": "venue_approximate",
       "start_time": "10:30",
-      "end_time": "16:30"
+      "end_time": "16:30",
+      "coordinate_source_url": "https://www.m-yzao.com/access"
     },
     {
       "id": "yamagata-20261114-flowers",
@@ -694,14 +699,15 @@
       "municipality": "山形市",
       "venue": "道の駅やまがた蔵王 樹氷ホール",
       "address": "山形県山形市表蔵王79-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 38.18944627354761,
+      "longitude": 140.30911699748432,
       "summary": "生け花の展示。11/14は10:30〜17:30、11/15は10:00〜16:00。",
       "official_url": "https://www.m-yzao.com/archives/7864",
       "source_name": "道の駅やまがた蔵王公式",
       "source_url": "https://www.m-yzao.com/archives/7864",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified"
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.m-yzao.com/access"
     },
     {
       "id": "yamagata-20261114-flowerbasket",
@@ -712,14 +718,15 @@
       "municipality": "山形市",
       "venue": "道の駅やまがた蔵王 イートイン",
       "address": "山形県山形市表蔵王79-1",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 38.18944627354761,
+      "longitude": 140.30911699748432,
       "summary": "花かごの展示。各日9:00〜17:00、最終日は15:00まで。",
       "official_url": "https://www.m-yzao.com/archives/7864",
       "source_name": "道の駅やまがた蔵王公式",
       "source_url": "https://www.m-yzao.com/archives/7864",
       "checked_on": "2026-11-04",
-      "coordinate_status": "unverified"
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://www.m-yzao.com/access"
     },
     {
       "id": "niigata-20261120-hikari",
