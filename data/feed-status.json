@@ -33,15 +33,15 @@
     "宮城県仙台市"
   ],
   "published_events": 53,
-  "located_events": 44,
-  "unlocated_events": 9,
+  "located_events": 53,
+  "unlocated_events": 0,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。 2026-11-05にうずまの竹あかりの代表地点座標を追加（概算）。 2026-11-05に道の駅やまがた蔵王の7イベントへ、公式アクセス地図の代表座標を追加（会場区画の違いを考慮し概算扱い）。 2026-11-05にふくしまふるさと祭りの会場代表座標を追加（施設中心の概算）。 2026-11-05に公式アクセス地図等で確認できた11イベントの会場代表座標を追加。座標確認ができない9件はnullのまま維持。",
+  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。 2026-11-05にうずまの竹あかりの代表地点座標を追加（概算）。 2026-11-05に道の駅やまがた蔵王の7イベントへ、公式アクセス地図の代表座標を追加（会場区画の違いを考慮し概算扱い）。 2026-11-05にふくしまふるさと祭りの会場代表座標を追加（施設中心の概算）。 2026-11-05に公式アクセス地図等で確認できた11イベントの会場代表座標を追加。座標確認ができない9件はnullのまま維持。 2026-11-05に利用者依頼に基づき、残る9件を会場住所と公開地図で照合して概算座標を追加。広域型は代表地点を明示し、距離・ナビが全会場を示すものではない旨をイベント表示にも反映。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -287,8 +287,8 @@
   },
   "coordinate_update_batch": {
     "checked_on": "2026-11-05",
-    "status": "partial",
-    "applied_count": 11,
+    "status": "completed_address_based_approximation",
+    "applied_count": 20,
     "event_ids": [
       "ibaraki-20261113-plankton",
       "ibaraki-20261114-seeds",
@@ -300,63 +300,64 @@
       "saitama-20261107-keyaki-illumination",
       "saitama-20261107-keyaki-dance-base",
       "miyagi-20261114-uminomori-night",
-      "miyagi-20261122-uminomori-night"
+      "miyagi-20261122-uminomori-night",
+      "mashiko-20261118-leonids",
+      "chiba-20261107-symposium",
+      "chiba-20261108-donguri",
+      "gunma-20261115-tamamura",
+      "miyagi-20261121-tagajo-yogoto",
+      "niigata-20261120-hikari",
+      "nagano-20261114-illumination",
+      "nagano-20261121-purple",
+      "kanagawa-20261204-yorunoyo"
     ],
-    "note": "ユーザーの一括承認に基づき、単独施設を公式アクセス地図・公式マップで照合した11イベントに代表座標を追加。広域・複数会場型、または座標を公式地図から確定できなかった施設は未設定を維持。",
-    "remaining_unlocated": [
+    "note": "ユーザーの一括承認に基づき、単独施設を公式アクセス地図・公式マップで照合した11イベントに代表座標を追加。広域・複数会場型、または座標を公式地図から確定できなかった施設は未設定を維持。 2026-11-05にユーザー依頼で残る9件へ住所ベースの概算座標を追加。会場が広域・沿道型の場合は主要会場または区間の概算代表地点であることをイベントvenue/address/summaryに記載。",
+    "remaining_unlocated": [],
+    "address_based_additions": [
       {
         "id": "mashiko-20261118-leonids",
-        "title": "しし座流星群観望会",
-        "venue": "益子町天体観測施設スペース250",
-        "reason": "公式イベントページで施設と住所は確認したが、施設地点の座標を示す公式マップを取得できず。"
-      },
-      {
-        "id": "miyagi-20261121-tagajo-yogoto",
-        "title": "TAGAJO YOGOTO 2026",
-        "venue": "多賀城跡および周辺エリア",
-        "reason": "多賀城跡と周辺エリアにまたがるため単一の会場代表点が定まらない。"
-      },
-      {
-        "id": "niigata-20261120-hikari",
-        "title": "NIIGATA光のページェント 2026",
-        "venue": "新潟駅南口広場・けやき通り",
-        "reason": "駅南口広場からけやき通りに広がるため、代表地点を一意に決められない。"
-      },
-      {
-        "id": "nagano-20261114-illumination",
-        "title": "善光寺表参道イルミネーション2026-2027",
-        "venue": "長野駅前交差点〜善光寺交差点の表参道",
-        "reason": "長野駅前から善光寺交差点までの沿道開催で、単一地点ではない。"
-      },
-      {
-        "id": "nagano-20261121-purple",
-        "title": "善光寺本堂パープルライトアップ",
-        "venue": "善光寺本堂",
-        "reason": "善光寺本堂の位置を示す公式アクセスページの座標リンクを取得できず、駐車場座標で代用しない。"
+        "coordinate_source_url": "https://map.yahoo.co.jp/v3/place/DIoFrNTuyDE",
+        "note": "公式住所4231番地とYahoo!マップの施設掲載を照合。敷地住所基準の概算点。"
       },
       {
         "id": "chiba-20261107-symposium",
-        "title": "自然史シンポジウム",
-        "venue": "千葉県立中央博物館 講堂",
-        "reason": "博物館公式のGoogleマップ短縮リンクは確認したが、今回リンク先の座標を取得できず。"
+        "coordinate_source_url": "https://wwwp.pref.chiba.lg.jp/pbbfmap/facility/1361",
+        "note": "県の施設情報で住所を照合。博物館講堂は館代表点。"
       },
       {
         "id": "chiba-20261108-donguri",
-        "title": "どんぐり博士になろう",
-        "venue": "千葉県立中央博物館 生態園",
-        "reason": "博物館公式のGoogleマップ短縮リンクは確認したが、今回リンク先の座標を取得できず。"
+        "coordinate_source_url": "https://wwwp.pref.chiba.lg.jp/pbbfmap/facility/1361",
+        "note": "県の施設情報で住所と隣接する生態園を照合。館代表点。"
       },
       {
         "id": "gunma-20261115-tamamura",
-        "title": "第42回玉村町産業祭",
-        "venue": "玉村町文化センター周辺",
-        "reason": "文化センター公式ページで住所・敷地は確認したが、敷地の公式地図座標を確定できず。"
+        "coordinate_source_url": "https://www.mapion.co.jp/m2/15.00/36.30564453/139.12224029/0/0?poi=21030310759",
+        "note": "玉村町公式の住所・敷地図をMapionの施設地図で照合。"
+      },
+      {
+        "id": "miyagi-20261121-tagajo-yogoto",
+        "coordinate_source_url": "https://www.city.tagajo.miyagi.jp/bunkazai/kurashi/shisetsu/shisetsu/bunkazai/004.html",
+        "note": "市公式地図リンクの南門座標を代表点として使用。イベントは多賀城跡周辺に広がる。"
+      },
+      {
+        "id": "niigata-20261120-hikari",
+        "coordinate_source_url": "https://mapfan.com/spots/SCC,J,MQBE",
+        "note": "駅南口広場とけやき通りを含むため、駅南口のMapFan座標を代表点として使用。"
+      },
+      {
+        "id": "nagano-20261114-illumination",
+        "coordinate_source_url": "https://www.city.nagano.nagano.jp/n181000/contents/p000018.html",
+        "note": "市公式の表参道区間を照合し、沿道区間の概算中間地点を代表点として設定。"
+      },
+      {
+        "id": "nagano-20261121-purple",
+        "coordinate_source_url": "https://www.zenkoji.jp/access/",
+        "note": "善光寺公式アクセスと本堂住所に基づく境内の概算代表点。"
       },
       {
         "id": "kanagawa-20261204-yorunoyo",
-        "title": "ヨルノヨ2026",
-        "venue": "横浜都心臨海部（大さん橋・山下公園ほか）",
-        "reason": "大さん橋・山下公園など複数のコア会場と都心臨海部を巡るイベント。"
+        "coordinate_source_url": "https://yorunoyo.yokohama/contents/highlight/",
+        "note": "公式イベント案内の主要眺望地点・大さん橋を広域開催の代表点として使用。"
       }
     ]
   }
