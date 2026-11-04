@@ -27,18 +27,21 @@
     "群馬県玉村町",
     "埼玉県さいたま市",
     "東京都武蔵野市",
-    "神奈川県横浜市"
+    "神奈川県横浜市",
+    "栃木県栃木市",
+    "茨城県笠間市",
+    "宮城県仙台市"
   ],
-  "published_events": 46,
+  "published_events": 53,
   "located_events": 24,
-  "unlocated_events": 22,
+  "unlocated_events": 29,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "ChatGPTによる単発手動更新。13都県すべてを網羅した確認ではない。公式ページで日程等を確認できたイベント21件を追加。新規イベントの座標は未検証で距離検索に出ない場合がある。Codexの自動化スケジュールは変更していない。",
+  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -179,6 +182,64 @@
         "https://25soyukai.wixsite.com/mysite"
       ],
       "note": "27HondaFes・2027 Honda祭り/ホンダ祭り・双友会・芳賀/さくら地区を公式サイト・別名で検索したが、2027年の公式開催発表を確認できず。未発表か確認不能かの確定はせず、継続監視。"
+    }
+  ],
+  "supplemental_run": {
+    "checked_on": "2026-11-04",
+    "environment": "ChatGPT manual one-off supplemental run",
+    "scope": "開催中または2026-11-04から60日先（2027-01-03）以内の追加候補を公式ページで確認。13都県すべての情報源を網羅した確認ではない。",
+    "added_events": 7,
+    "published_regions": [
+      "栃木県栃木市",
+      "茨城県笠間市",
+      "埼玉県さいたま市",
+      "宮城県仙台市"
+    ],
+    "verified_sources": [
+      {
+        "name": "栃木市観光協会",
+        "url": "https://www.tochigi-kankou.or.jp/news/20057",
+        "note": "第10回うずまの竹あかりの期間、点灯時間、会場を確認。"
+      },
+      {
+        "name": "GMOアリーナさいたま公式",
+        "url": "https://www.saitama-arena.co.jp/event/illumination2026/outline/",
+        "note": "けやきひろばイルミネーションの期間・時間とSAITAMA DANCE BASEの日時を確認。"
+      },
+      {
+        "name": "せんだい旅日和",
+        "url": "https://www.sentabi.jp/events/203",
+        "note": "仙台うみの杜水族館ナイトイベントの開催日、時刻、料金、会場を確認。"
+      },
+      {
+        "name": "常陸大宮市商工会",
+        "url": "https://hitachiomiya-shoko.jp/event/6999/",
+        "note": "いばらきグルメ物産展2回の日時・会場・先着条件を確認。"
+      }
+    ],
+    "facility_checks": [
+      {
+        "name": "ウォーカープラス",
+        "status": "discovery_only",
+        "note": "発見候補の調査に使用。新規追加分は公式情報で照合。"
+      },
+      {
+        "name": "道の駅・自治体・商業施設・あぜみち",
+        "status": "partial",
+        "note": "今回は道の駅かさま等の個別公式ページを確認。対象13都県の全施設・全店は再確認できていない。"
+      }
+    ],
+    "unverified": [
+      "13都県ごとの最低検索回数と2系統の情報源確認をこの追補だけで達成したとは扱わない。施設別アーカイブの全件走査は未完了。",
+      "追加イベントの座標は検証しておらずnull/unverified。"
+    ],
+    "holiday_check": "内閣府祝日情報は前回の2026-11-04確認を維持。祝日情報に変更確認は行わず、URLは既存値を維持。",
+    "recurring_honda": "当年・翌年の名称別公式検索を再確認。2026開催は既確認。2027年の公式発表は見つからず、公式未発表か未確認かを断定しない。"
+  },
+  "failed_sources": [
+    {
+      "name": "対象13都県の全市区町村・道の駅・商業施設・あぜみち各店",
+      "reason": "今回の追補では全施設のイベント一覧や店舗別お知らせの走査を完了できず。未調査とアクセス不能を混同せず、status=partialを維持。"
     }
   ]
 }
