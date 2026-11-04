@@ -31,7 +31,9 @@ def validate(path):
         day(e['checked_on']);url(e['source_url'])
         if e.get('official_url'):url(e['official_url'])
         for k in ('start_time','end_time'):
-            if e.get(k): assert dt.datetime.strptime(e[k],'%H:%M').strftime('%H:%M')==e[k],'Invalid time'
+            if e.get(k):
+                if k=='end_time' and e[k]=='24:00': continue
+                assert dt.datetime.strptime(e[k],'%H:%M').strftime('%H:%M')==e[k],'Invalid time'
         lat,lon=e.get('latitude'),e.get('longitude')
         assert (lat is None)==(lon is None),'Coordinates must be a pair'
         if lat is not None:
