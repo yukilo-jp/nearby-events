@@ -33,15 +33,15 @@
     "宮城県仙台市"
   ],
   "published_events": 53,
-  "located_events": 32,
-  "unlocated_events": 21,
+  "located_events": 33,
+  "unlocated_events": 20,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。 2026-11-05にうずまの竹あかりの代表地点座標を追加（概算）。 2026-11-05に道の駅やまがた蔵王の7イベントへ、公式アクセス地図の代表座標を追加（会場区画の違いを考慮し概算扱い）。",
+  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。 2026-11-05にうずまの竹あかりの代表地点座標を追加（概算）。 2026-11-05に道の駅やまがた蔵王の7イベントへ、公式アクセス地図の代表座標を追加（会場区画の違いを考慮し概算扱い）。 2026-11-05にふくしまふるさと祭りの会場代表座標を追加（施設中心の概算）。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -273,5 +273,16 @@
       "yamagata-20261114-flowerbasket"
     ],
     "note": "樹氷ホール、駅前駐車場、正面入口、イートインは同施設敷地内のため、施設代表地点を距離表示用に共有。各区画の正確な位置を示すものではない。"
+  },
+  "coordinate_update_iwaki": {
+    "checked_on": "2026-11-05",
+    "event_id": "fukushima-20261107-furusato",
+    "title": "ふくしまふるさと祭り",
+    "representative_location": "いわき芸術文化交流館アリオス",
+    "coordinate_status": "venue_approximate",
+    "latitude": 37.0498697,
+    "longitude": 140.88955369999996,
+    "coordinate_source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000003707/index.html",
+    "note": "いわき市公式の施設地図に示された位置。中劇場の建物内位置ではなく、会場施設の代表点。"
   }
 }
