@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "13都県の全域・全施設を網羅していません。2026-11-04に公式情報を個別確認できた追加分を掲載しました。今回の追加地域は栃木市、笠間市、さいたま市、仙台市です。会場座標は今回追加分では未検証のため距離検索に反映されない場合があります。情報源・施設の全件確認は未完了で、状況はpartialです。",
+  "coverage_note": "13都県の全域・全施設を網羅していません。2026-11-04までに公式情報を個別確認できたイベントを掲載。2026-11-05に第10回うずまの竹あかりの開催情報と会場範囲を栃木市観光協会で再確認し、利用者指定のきららの杜とちぎ蔵の街楽習館付近を距離表示用の概算代表地点として登録しました。状況はpartialです。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -984,16 +984,17 @@
       "end_time": "22:00",
       "prefecture": "栃木県",
       "municipality": "栃木市",
-      "venue": "巴波川（常盤橋～巴波川橋）",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "venue": "巴波川（常盤橋～巴波川橋）。距離表示用の代表地点：きららの杜とちぎ蔵の街楽習館付近",
+      "latitude": 36.38117552335294,
+      "longitude": 139.728892688052,
+      "coordinate_status": "venue_approximate",
       "summary": "巴波川沿いの竹あかり。点灯時間は16:30～22:00。",
       "official_url": "https://www.tochigi-kankou.or.jp/news/20057",
       "source_name": "栃木市観光協会",
       "source_url": "https://www.tochigi-kankou.or.jp/news/20057",
-      "checked_on": "2026-11-04",
-      "category": "イルミネーション・ライトアップ"
+      "checked_on": "2026-11-05",
+      "category": "イルミネーション・ライトアップ",
+      "coordinate_source_url": "https://www.city.tochigi.lg.jp/site/culture/1500.html"
     },
     {
       "id": "saitama-20261107-keyaki-illumination",
@@ -1117,7 +1118,7 @@
       "checked_on": "2026-11-04"
     }
   ],
-  "generated_on": "2026-11-04",
+  "generated_on": "2026-11-05",
   "holiday_dates": [
     "2026-11-23",
     "2027-01-01",
