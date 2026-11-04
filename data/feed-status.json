@@ -33,15 +33,15 @@
     "宮城県仙台市"
   ],
   "published_events": 53,
-  "located_events": 25,
-  "unlocated_events": 28,
+  "located_events": 32,
+  "unlocated_events": 21,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。 2026-11-05にうずまの竹あかりの代表地点座標を追加（概算）。",
+  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。 2026-11-05にうずまの竹あかりの代表地点座標を追加（概算）。 2026-11-05に道の駅やまがた蔵王の7イベントへ、公式アクセス地図の代表座標を追加（会場区画の違いを考慮し概算扱い）。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -253,5 +253,25 @@
     "coordinate_source_url": "https://www.city.tochigi.lg.jp/site/culture/1500.html",
     "user_map_link": "https://maps.app.goo.gl/Npa7kpfZZmrJoY5r9?g_st=ic",
     "note": "イベント会場は巴波川（常盤橋～巴波川橋）に沿って広がるため、施設付近を距離表示用の代表地点として登録。全会場範囲を表す点ではない。"
+  },
+  "coordinate_update_yamagata": {
+    "checked_on": "2026-11-05",
+    "facility": "道の駅やまがた蔵王",
+    "address": "山形市表蔵王79番地1",
+    "coordinate_status": "venue_approximate",
+    "latitude": 38.18944627354761,
+    "longitude": 140.30911699748432,
+    "coordinate_source_url": "https://www.m-yzao.com/access",
+    "user_confirmed_event_id": "yamagata-20261106-furatto",
+    "applied_event_ids": [
+      "yamagata-20261106-furatto",
+      "yamagata-20261108-sweetsbread",
+      "yamagata-20261108-marutto",
+      "yamagata-20261114-market",
+      "yamagata-20261114-wood",
+      "yamagata-20261114-flowers",
+      "yamagata-20261114-flowerbasket"
+    ],
+    "note": "樹氷ホール、駅前駐車場、正面入口、イートインは同施設敷地内のため、施設代表地点を距離表示用に共有。各区画の正確な位置を示すものではない。"
   }
 }
