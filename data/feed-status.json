@@ -50,16 +50,16 @@
     "長野県松本市",
     "長野県長野市"
   ],
-  "published_events": 95,
+  "published_events": 96,
   "located_events": 64,
-  "unlocated_events": 31,
+  "unlocated_events": 32,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "2026-11-05 マルシェ・ワークショップ等の重点調査で22件追加し、events.json全95件（位置検証済み64件、位置未設定31件）に公開フィードの実数を照合。旧statusのpublished_events=53はイベント追加後に未更新だったため訂正した。対象13都県について県別3系列以上の発見検索を試したが、各都県の全公式アーカイブ・全施設を確認し終えたわけではない。市貝町50km重点枠は維持。アプリ側の取得・表示成功は確認していない。",
+  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -562,5 +562,27 @@
     ],
     "exclusions": "通常営業・恒常広告・日時なし告知・過去開催・出店者のみの募集・招待限定は来場者向け新規イベントとして登録しない。県別検索のヒット数を公開掲載件数と混同しない。",
     "gps_privacy": "端末の現在地・移動履歴は取得していない。"
+  },
+  "daily_run_20261105_1700": {
+    "date": "2026-11-05",
+    "mode": "Thursday daily diff only",
+    "added": 1,
+    "updated": 2,
+    "cancelled": 0,
+    "verified_sources": [
+      "https://www.michinoeki-ichikai.jp/",
+      "https://www.michinoeki-ichikai.jp/event/2056/",
+      "https://www.michinoeki-ichikai.jp/event/2082/",
+      "https://www.bellmall.co.jp/event/",
+      "https://www.bellmall.co.jp/shopinfo/421",
+      "https://m-mashiko.com/calendar/",
+      "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+    ],
+    "unverified": [
+      "道の駅ましこの11月イベントカレンダーは取得版により10月表示が混在し、全件検証はできていない",
+      "あぜみち各店、FKD、イオン各店の当日全アーカイブは未確認",
+      "HondaFes 2027の当年公式発表は今回の検索では確認できず、未発表確定とはしていない"
+    ],
+    "note": "既存95件の一斉再検証は未実施。確認した市貝町2件のみchecked_onを再設定。位置情報未検証の新規1件はnull/unverified。"
   }
 }
