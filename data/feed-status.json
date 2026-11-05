@@ -55,15 +55,15 @@
     "長野県長野市"
   ],
   "published_events": 108,
-  "located_events": 72,
-  "unlocated_events": 36,
+  "located_events": 108,
+  "unlocated_events": 0,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。 2026-11-05 下野市のLykke森の時間を当年の主催関係者公開告知画像から1件追補。会場住所・概算座標を公開地図で照合。投稿の固有リンク取得不可・直前変更未確認。イベント登録件数を97、座標あり65・なし32に更新。 2026-11-05夜：SNS/主催ブログ・公式施設一覧の地元再調査で11レコード（朝市と午後が非連続のHOPESは2件）を追加。events.json 108件、座標あり72件、未設定36件。対象は市貝町50km重点と周辺の一部のみ、13都県全件調査ではない。出店者募集・前年日付のみでは掲載しない。",
+  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。 2026-11-05 下野市のLykke森の時間を当年の主催関係者公開告知画像から1件追補。会場住所・概算座標を公開地図で照合。投稿の固有リンク取得不可・直前変更未確認。イベント登録件数を97、座標あり65・なし32に更新。 2026-11-05夜：SNS/主催ブログ・公式施設一覧の地元再調査で11レコード（朝市と午後が非連続のHOPESは2件）を追加。events.json 108件、座標あり72件、未設定36件。対象は市貝町50km重点と周辺の一部のみ、13都県全件調査ではない。出店者募集・前年日付のみでは掲載しない。 2026-11-05 座標のみの追加点検で未設定36件に会場・住所を照合した概算代表座標を追加、総108件・座標あり108件・座標未設定0件。開催日時・中止は本作業で原則再確認しておらず、個別イベントのchecked_onは変更していない。所在地のピンが受付・入口や沿道・広域・複数会場全体を示すわけではない。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -787,5 +787,103 @@
     "coordinate_notes": "住所ベースの概算代表点を検証できたものだけ追加（駅前、神社境内、公園等）。住所に対応する座標を確認できなかった会場はnull/unverifiedで登録。端末の位置情報は一切扱っていない。",
     "honda_watch": "2026年11月29日開催10:00〜17:30の当年公式ページが検索で確認できた。27HondaFes/2027芳賀双友会の公式開催告知は今回の検索では発見できず、未発表と断定しない。",
     "national_holidays": "内閣府の2026/2027祝日一覧を再確認。通常60日枠内の対象祝日は2026-11-23、2027-01-01。"
+  },
+  "coordinate_completion_20261105": {
+    "checked_on": "2026-11-05",
+    "status": "all_records_geolocated_as_approximate_or_prior_verified",
+    "scope": "GitHub main events.jsonの従来座標nullだった36件のみ",
+    "previous_total": 108,
+    "previous_located": 72,
+    "previous_unlocated": 36,
+    "applied_count": 36,
+    "final_total": 108,
+    "final_located": 108,
+    "final_unlocated": 0,
+    "applied_ids": [
+      "tochigi-20261114-akimatsuri",
+      "kitamoto-20261107-yoimatsuri",
+      "kashiwa-20261219-eco-kashiwanoha",
+      "chiba-20261114-mihamaen-light",
+      "chiba-20261113-mihamaen-photo",
+      "ota-20261128-openfactory",
+      "atsugi-20261114-ayu-koro",
+      "fujikawaguchiko-20261107-kouyou",
+      "tome-20261108-kome",
+      "utsunomiya-20261121-kiyotoko",
+      "oyama-20261123-workshopfestival",
+      "utsunomiya-20261129-babykids",
+      "tsukuba-20261107-sakura-marche",
+      "kiryu-20261107-kizuna-marche",
+      "annaka-20261205-christmas-market",
+      "ageo-20261107-sainokuni-marche",
+      "chiba-20261202-teshigoto-marche",
+      "chiba-20261204-noufuku-marche",
+      "tokyo-20261108-glad-marche",
+      "tokyo-20261219-glad-marche",
+      "tokyo-20261115-toyosu-style",
+      "tokyo-20261205-toyosu-style",
+      "yamanashi-20261106-yorozu-marche",
+      "ueda-20261127-make-marche",
+      "ueda-20261128-make-marche",
+      "matsumoto-20261129-natural-marche",
+      "niigata-20261206-connect-marche",
+      "sendai-20261114-shukakumatsuri",
+      "sendai-20261206-branch-marche",
+      "iwaki-20261129-ai-smile-marche",
+      "fukushima-20261128-gourd-lantern",
+      "utsunomiya-bellmall-sakuraheian-20261101-sale",
+      "mashiko-20261114-hopes-morning",
+      "mashiko-20261114-hopes-evening",
+      "kanuma-20261129-kiyosu4",
+      "kanuma-20261122-senju-wannyan"
+    ],
+    "source_policy": "会場住所と検証可能な施設地図・住所地図を照合し、latitude/longitudeのペアで登録。すべてcoordinate_status=venue_approximateでcoordinate_source_urlを保持。複数会場や沿道・公園・駅コンコースは距離表示用の代表地点であって全会場・受付・駐車場・施設入口を示さない旨をvenue/summaryへ追加。",
+    "caveats": [
+      {
+        "id": "ota-20261128-openfactory",
+        "status": "low_precision_address_based_representative",
+        "note": "工和会館（下丸子1-6-4）の公開住所と街区地図・駅徒歩案内に基づく概算周辺点。建物そのものの正確な座標ではなく、30前後の参加工場は個別住所。"
+      },
+      {
+        "id": "annaka-20261205-christmas-market",
+        "status": "same_address_campus_reference",
+        "note": "2026年移転後の安中市新庁舎住所（安中2-13-7）と同一住所の体育館側地図を参照した敷地概算点。旧庁舎ではない。"
+      },
+      {
+        "id": "tome-20261108-kome",
+        "status": "adjacent_campus_representative",
+        "note": "登米市中江2丁目6番地の複数会場に近接する迫体育館（同地区2-6-1）座標を公共施設区画の概算代表点として採用。公園・公民館のそれぞれの入口を示さない。"
+      },
+      {
+        "id": "tochigi-20261114-akimatsuri",
+        "status": "route_representative",
+        "note": "山車巡行区間の蔵の街大通り近くの蔵の街第1駐車場付近を代表点。駐車場利用可能性や巡行経路そのものを示さない。"
+      },
+      {
+        "id": "tsukuba-20261107-sakura-marche",
+        "status": "venue_address_conflict",
+        "note": "桜総合体育館の施設所在地がつくば市金田1608と判明したため、以前の流星台63表記を訂正。イベントの個別会場として公式再確認の必要あり。"
+      },
+      {
+        "id": "iwaki-20261129-ai-smile-marche",
+        "status": "historical_site_map",
+        "note": "イオンいわき店隣の旧サンデーいわき平店を、閉店後も残る元店舗名の公開地図で照合。イオン本体の座標を代用していない。"
+      },
+      {
+        "id": "kanuma-20261129-kiyosu4",
+        "status": "dms_public_coordinates",
+        "note": "県の公開施設資料の度分秒を概算変換した体育館周辺代表点。保育園・コミュニティセンターは別区画。"
+      }
+    ],
+    "unverified_open_items": [
+      "施設内部の正確なブース・受付・入口",
+      "交通規制下での車両ナビの妥当性",
+      "案内所や駅・道路代表点から実際の屋外イベントの出店区画までの距離",
+      "住所概算の一部代表点の十数〜数百メートル程度の誤差",
+      "一部イベントの当年掲載情報再取得不調による開催内容の現時点の正確性"
+    ],
+    "event_content_reverification": "実施していない。今回座標のみ更新のため既存checked_on維持。",
+    "privacy": "端末の現在地・移動履歴・個人識別情報を取得していない。",
+    "data_only": "アプリコード/APK変更なし。GitHub公開フィードの更新とiPhone取得完了は別。"
   }
 }
