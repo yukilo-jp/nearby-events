@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "2026-11-05に対象13都県を個別検索し、マルシェ・クラフト市・工作教室・親子体験などの公式告知を重点確認。市貝町周辺50kmを重点枠にしつつ広域も検索したが、全都県の全自治体・全施設を網羅していないためstatus=partial。新規イベントは住所に一致する座標が未検証のためnull/unverifiedを維持（端末で距離検索に表示されない場合がある）。開催情報を再確認していない既存イベントのchecked_onは変更しない。過去イベントは履歴用途で保持。 11/5夕方の差分確認：市貝町道の駅公式イベント一覧とベルモールの公式イベント・ショップニュースを照合し、ベルモールの期間限定セール1件を追加。市貝町の花植えとオータムマルシェの個別公式告知を再確認。13都県の網羅調査は本日（木曜）は実施していない。",
+  "coverage_note": "2026-11-05に対象13都県を個別検索し、マルシェ・クラフト市・工作教室・親子体験などの公式告知を重点確認。市貝町周辺50kmを重点枠にしつつ広域も検索したが、全都県の全自治体・全施設を網羅していないためstatus=partial。新規イベントは住所に一致する座標が未検証のためnull/unverifiedを維持（端末で距離検索に表示されない場合がある）。開催情報を再確認していない既存イベントのchecked_onは変更しない。過去イベントは履歴用途で保持。 11/5夕方の差分確認：市貝町道の駅公式イベント一覧とベルモールの公式イベント・ショップニュースを照合し、ベルモールの期間限定セール1件を追加。市貝町の花植えとオータムマルシェの個別公式告知を再確認。13都県の網羅調査は本日（木曜）は実施していない。 2026-11-05に下野市『Lykke 森の時間』の2026年開催告知画像を確認して1件追加。Instagram投稿の固有URLは未取得で直前の変更確認は未完了。三王山ふれあい公園の公開住所とMapFanにより概算代表座標を付与した。開催イベント全体の範囲・当日受付場所を示す点ではない。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -2038,6 +2038,30 @@
       "longitude": null,
       "coordinate_status": "unverified",
       "category": "期間限定セール"
+    },
+    {
+      "id": "shimotsuke-20261107-lykke-morinojikan",
+      "title": "Lykke Field Note 02 again 森の時間 ～秋を愉しむ～",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "start_time": "10:00",
+      "end_time": "16:00",
+      "prefecture": "栃木県",
+      "municipality": "下野市",
+      "venue": "三王山ふれあい公園（公園の概算代表地点）",
+      "address": "栃木県下野市三王山700-1",
+      "latitude": 36.3981559,
+      "longitude": 139.9049533,
+      "coordinate_status": "venue_approximate",
+      "coordinate_source_url": "https://mapfan.com/spots/S5IY3%2CJ%2CXZ59Y0",
+      "category": "マルシェ・ワークショップ",
+      "summary": "秋の屋外イベント。飲食店・キッチンカー、ロボットマスコットやキャンドルなどのワークショップ、キャンプ用品などの雑貨販売、犬関連グッズの販売やドッグランなどを案内。雨天・荒天中止。開催情報は2026年11月5日に提供されたY’sワークスInstagramの告知画像で確認。投稿の直接URL・直前の変更は未確認。公園代表点で個々の出店エリアを示さない。ペット同伴は公園の利用規則と主催案内を要確認。",
+      "source_name": "Y’sワークス Instagram（主催関係者の公開投稿画像・ユーザー提供）",
+      "source_url": "https://www.instagram.com/y.s._works/",
+      "official_url": "https://www.instagram.com/y.s._works/",
+      "checked_on": "2026-11-05",
+      "organizer": "Lykke実行委員会",
+      "verification_note": "2026-11-05にユーザー提供の公開Instagram投稿スクリーンショットのフライヤーで日時・会場・内容を確認。イベント固有の投稿パーマリンク取得不可、公式サイト・Instagramの直接本文による再確認は未完了。"
     }
   ],
   "generated_on": "2026-11-05",
