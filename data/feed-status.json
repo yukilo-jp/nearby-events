@@ -13,6 +13,7 @@
     "埼玉県さいたま市",
     "埼玉県上尾市",
     "埼玉県北本市",
+    "埼玉県狭山市",
     "宮城県仙台市",
     "宮城県多賀城市",
     "宮城県登米市",
@@ -32,8 +33,11 @@
     "栃木県市貝町",
     "栃木県栃木市",
     "栃木県益子町",
+    "栃木県真岡市",
     "栃木県芳賀町",
+    "栃木県茂木町",
     "栃木県足利市",
+    "栃木県鹿沼市",
     "神奈川県厚木市",
     "神奈川県横浜市",
     "福島県いわき市",
@@ -50,16 +54,16 @@
     "長野県松本市",
     "長野県長野市"
   ],
-  "published_events": 97,
-  "located_events": 65,
-  "unlocated_events": 32,
+  "published_events": 108,
+  "located_events": 72,
+  "unlocated_events": 36,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。 2026-11-05 下野市のLykke森の時間を当年の主催関係者公開告知画像から1件追補。会場住所・概算座標を公開地図で照合。投稿の固有リンク取得不可・直前変更未確認。イベント登録件数を97、座標あり65・なし32に更新。",
+  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。 2026-11-05 下野市のLykke森の時間を当年の主催関係者公開告知画像から1件追補。会場住所・概算座標を公開地図で照合。投稿の固有リンク取得不可・直前変更未確認。イベント登録件数を97、座標あり65・なし32に更新。 2026-11-05夜：SNS/主催ブログ・公式施設一覧の地元再調査で11レコード（朝市と午後が非連続のHOPESは2件）を追加。events.json 108件、座標あり72件、未設定36件。対象は市貝町50km重点と周辺の一部のみ、13都県全件調査ではない。出店者募集・前年日付のみでは掲載しない。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -188,18 +192,18 @@
       "status": "announced_venue_reference_located",
       "start_date": "2026-11-29",
       "source_url": "https://www.26hondafes-heartstudios.com/",
-      "note": "2026/11/29開催10:00～17:30を当年公式サイトの公開情報で再確認。来場入口・駐車場の詳細は引き続き未確認。"
+      "note": "2026-11-05に公式https://www.26hondafes-heartstudios.com/を検索・確認し11/29・10:00〜17:30の表示を確認。来場者用入口・駐車場詳細は追加確認していない。"
     },
     {
       "id": "honda-soyukai-haga-sakura",
       "year": 2027,
       "checked_on": "2026-11-05",
-      "status": "official_announcement_not_found",
+      "status": "official_announcement_not_found_in_current_search",
       "source_urls": [
         "https://www.26hondafes-heartstudios.com/",
         "https://25soyukai.wixsite.com/mysite"
       ],
-      "note": "2027/27HondaFes・Honda祭り・双友会・芳賀/さくら地区を検索。2026公式サイトは確認できたが2027公式の開催案内は今回の検索では見つからず、開催自体の未発表確定とは扱わない。"
+      "note": "2026-11-05に27HondaFes/2027芳賀双友会を検索し公式2027開催情報を発見できず。未発表と断定せず継続監視、前年会場・日時は流用していない。"
     }
   ],
   "supplemental_run": {
@@ -641,5 +645,147 @@
       "栃木県"
     ],
     "notes": "今回はユーザー提供1件を個別照合した追補。対象13都県を網羅調査したものではない。"
+  },
+  "social_local_discovery_20261105": {
+    "checked_on": "2026-11-05",
+    "run_type": "manual user-requested focused search",
+    "status": "partial",
+    "investigation_scope": "日本時間2026-11-05〜2027-01-04を対象。市貝町周辺50kmを重点、栃木・茨城の近隣市町を追加。通常の13都県全域重点調査は行っていない。",
+    "searched_prefectures": [
+      "栃木県",
+      "茨城県"
+    ],
+    "independently_reviewed_source_types": [
+      "地域・クラフト等イベント発見ポータル（発見のみ）",
+      "主催者公式ブログ・公式イベントページ",
+      "自治体・地域コミュニティセンター公式",
+      "会場施設公式と主催者サイト"
+    ],
+    "new_event_records": 11,
+    "distinct_events": 10,
+    "added_ids": [
+      "mashiko-20261114-hopes-morning",
+      "mashiko-20261114-hopes-evening",
+      "moka-20261121-tokotera7",
+      "motegi-20261123-morisato16",
+      "kasama-20261107-botanical-life10",
+      "kasama-20261205-colorful10",
+      "kanuma-20261129-kiyosu4",
+      "kanuma-20261121-tobudai-shukaku",
+      "utsunomiya-20261106-mineral8",
+      "moka-20261123-sangyosai34",
+      "kanuma-20261122-senju-wannyan"
+    ],
+    "scanned_sources": [
+      {
+        "name": "益子町公式11月イベント一覧",
+        "url": "https://www.town.mashiko.lg.jp/page/page002441.html",
+        "status": "official_index_content_seen_direct_open_failed_404",
+        "note": "当年公式検索結果と独立した2026年詳細案内でHOPESを照合。個別ブラウザ再取得では404。"
+      },
+      {
+        "name": "HOPES当年案内",
+        "url": "https://www.u-design.u-sin.co.jp/news-detail.php?slug=2026-11-14-hopes-market-live",
+        "status": "2026_event_details_confirmed",
+        "note": "8-12、15-20の非連続時刻と会場/入場/駐車場を照合。"
+      },
+      {
+        "name": "真岡グリーンツーリズム（とこテラ）",
+        "url": "https://moka-greentourism.com/news/",
+        "status": "2026_event_details_confirmed"
+      },
+      {
+        "name": "森と里のつながるマルシェ主催ブログ",
+        "url": "https://morimaru2014.hatenablog.com/entry/2026/10/29/200203",
+        "status": "official_public_search_content_seen_direct_open_cache_miss"
+      },
+      {
+        "name": "笠間工芸の丘・BOOK KASAMA",
+        "url": "https://bookkasama.com/",
+        "status": "2026_event_details_confirmed",
+        "note": "ボタニカルライフとカラフルはめでるとは別催事。主催サイトの開催日を確認。"
+      },
+      {
+        "name": "鹿沼市公式 清洲マルシェ",
+        "url": "https://www.city.kanuma.tochigi.jp/0509/info-0000011571-0.html",
+        "status": "2026_event_details_confirmed"
+      },
+      {
+        "name": "鹿沼市公式 東部台収穫祭",
+        "url": "https://www.city.kanuma.tochigi.jp/0119/info-0000011457-3.html",
+        "status": "2026_event_details_confirmed"
+      },
+      {
+        "name": "ミネラルマルシェ主催者・ライトキューブ宇都宮",
+        "url": "https://www.mineralshow.net/schedule/",
+        "status": "2026_date_confirmed",
+        "note": "11/6-8の時刻は日によって異なるためsummaryへ記録。"
+      },
+      {
+        "name": "真岡市公式 大産業祭",
+        "url": "https://www.city.moka.lg.jp/kakuka/shokokanko/event/21028.html",
+        "status": "2026_event_details_confirmed"
+      },
+      {
+        "name": "鹿沼市公式 千手山わんにゃんデー",
+        "url": "https://www.city.kanuma.tochigi.jp/0509/info-0000011605-0.html",
+        "status": "2026_event_details_confirmed"
+      },
+      {
+        "name": "まるまち（SNSリンク・発見用）",
+        "url": "https://marumachi.org/",
+        "status": "discovery_only"
+      },
+      {
+        "name": "BOTANICAL ZONE（Instagram埋め込み・発見用）",
+        "url": "https://botanical-zone.tokyo/202611tokyoevent/",
+        "status": "discovery_only"
+      }
+    ],
+    "deferred_candidates": [
+      {
+        "name": "艸化 第七話（真岡市nocao・11/8）",
+        "reason": "地域イベント/植物系ポータルに当年開催日と主催者Instagram紹介があるが、主催本人の当年投稿を直接確認できず追加保留。",
+        "reference_url": "https://botanical-zone.tokyo/202611tokyoevent/",
+        "status": "primary_confirmation_pending"
+      },
+      {
+        "name": "下野LINKマルシェ（下野市・11/22）",
+        "reason": "地域ポータルでは当年の開催日・会場を確認できるが、主催・会場の当年公式告知まで到達していないため追加保留。",
+        "reference_url": "https://marumachi.org/events/7323",
+        "status": "primary_confirmation_pending"
+      },
+      {
+        "name": "Instagramの一部公開投稿",
+        "reason": "検索エンジンに個別投稿本文が現れない／ログイン壁・キャッシュ欠落で確認できない情報がある。アクセス制限は回避せず、主催ブログ・公式サイトで独立照合できたイベントだけ掲載。",
+        "status": "access_limited"
+      }
+    ],
+    "source_failures": [
+      {
+        "name": "益子町公式11月イベント一覧の直接再取得",
+        "url": "https://www.town.mashiko.lg.jp/page/page002441.html",
+        "type": "direct_open_failed_404",
+        "reason": "検索結果に2026年HOPES詳細が掲載されていたが直接開くと404。異なる当年の詳細紹介を確認。"
+      },
+      {
+        "name": "森と里のつながるマルシェ主催ブログの直接再取得",
+        "url": "https://morimaru2014.hatenablog.com/entry/2026/10/29/200203",
+        "type": "direct_open_cache_miss",
+        "reason": "当年投稿の検索結果には全文の開催日・時間・会場があり、開く操作でキャッシュ欠落。未確認の詳細は推測しない。"
+      },
+      {
+        "name": "13都県全域の会場・公式SNS全走査",
+        "type": "not_investigated",
+        "reason": "今回は市貝町周辺のSNS重点調査であり広域13都県の全域調査を実施していない。"
+      }
+    ],
+    "changes_to_prior_event_records": 0,
+    "confirmed_cancellations": 0,
+    "located_new_events": 7,
+    "unlocated_new_events": 4,
+    "coordinate_notes": "住所ベースの概算代表点を検証できたものだけ追加（駅前、神社境内、公園等）。住所に対応する座標を確認できなかった会場はnull/unverifiedで登録。端末の位置情報は一切扱っていない。",
+    "honda_watch": "2026年11月29日開催10:00〜17:30の当年公式ページが検索で確認できた。27HondaFes/2027芳賀双友会の公式開催告知は今回の検索では発見できず、未発表と断定しない。",
+    "national_holidays": "内閣府の2026/2027祝日一覧を再確認。通常60日枠内の対象祝日は2026-11-23、2027-01-01。"
   }
 }
