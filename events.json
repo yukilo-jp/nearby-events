@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "2026-11-05に対象13都県を個別検索し、マルシェ・クラフト市・工作教室・親子体験などの公式告知を重点確認。市貝町周辺50kmを重点枠にしつつ広域も検索したが、全都県の全自治体・全施設を網羅していないためstatus=partial。新規イベントは住所に一致する座標が未検証のためnull/unverifiedを維持（端末で距離検索に表示されない場合がある）。開催情報を再確認していない既存イベントのchecked_onは変更しない。過去イベントは履歴用途で保持。",
+  "coverage_note": "2026-11-05に対象13都県を個別検索し、マルシェ・クラフト市・工作教室・親子体験などの公式告知を重点確認。市貝町周辺50kmを重点枠にしつつ広域も検索したが、全都県の全自治体・全施設を網羅していないためstatus=partial。新規イベントは住所に一致する座標が未検証のためnull/unverifiedを維持（端末で距離検索に表示されない場合がある）。開催情報を再確認していない既存イベントのchecked_onは変更しない。過去イベントは履歴用途で保持。 11/5夕方の差分確認：市貝町道の駅公式イベント一覧とベルモールの公式イベント・ショップニュースを照合し、ベルモールの期間限定セール1件を追加。市貝町の花植えとオータムマルシェの個別公式告知を再確認。13都県の網羅調査は本日（木曜）は実施していない。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -278,11 +278,11 @@
       "address": "栃木県芳賀郡市貝町大字市塙1270",
       "latitude": 36.54268896049615,
       "longitude": 140.095637217164,
-      "summary": "道の駅の花植え体験。参加無料、電話またはFAXで申込。汚れてもよい服装・長靴を準備。小雨決行、荒天中止。",
+      "summary": "11月7日10:00～11:30、道の駅まちおこしセンター前受付の花植え体験。参加無料、電話またはFAX申込。小雨決行、荒天中止。汚れてもよい服装・長靴、あれば軍手とスコップを持参。",
       "official_url": "https://www.michinoeki-ichikai.jp/event/2056/",
       "source_name": "道の駅サシバの里いちかい公式",
       "source_url": "https://www.michinoeki-ichikai.jp/event/2056/",
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-05",
       "coordinate_status": "venue_approximate",
       "coordinate_source_url": "https://www.michinoeki-ichikai.jp/access/"
     },
@@ -528,7 +528,7 @@
       "title": "道の駅サシバの里いちかい オータムマルシェ",
       "start_date": "2026-11-08",
       "end_date": "2026-11-08",
-      "start_time": "",
+      "start_time": "10:00",
       "end_time": "",
       "prefecture": "栃木県",
       "municipality": "市貝町",
@@ -536,11 +536,11 @@
       "address": "栃木県芳賀郡市貝町大字市塙1270",
       "latitude": 36.54268896049615,
       "longitude": 140.095637217164,
-      "summary": "軽食や手作り雑貨の販売、ワークショップなどを予定。公式告知は出店者募集ページで確認。来場者向けの開催時間は未掲載。",
+      "summary": "11月8日10:00開始。道の駅で軽食・雑貨の販売と秋の収穫祭、直売所の特売。終了時刻は公式告知で確認できないため未設定。",
       "official_url": "https://www.michinoeki-ichikai.jp/event/2007/",
       "source_name": "道の駅サシバの里いちかい公式",
-      "source_url": "https://www.michinoeki-ichikai.jp/event/2007/",
-      "checked_on": "2026-11-03",
+      "source_url": "https://www.michinoeki-ichikai.jp/event/2082/",
+      "checked_on": "2026-11-05",
       "coordinate_status": "venue_approximate",
       "coordinate_source_url": "https://www.michinoeki-ichikai.jp/access/",
       "category": "マルシェ"
@@ -2019,6 +2019,25 @@
       "coordinate_status": "unverified",
       "category": "マルシェ・ワークショップ",
       "address": "福島県福島市大笹生字月崎1-1"
+    },
+    {
+      "id": "utsunomiya-bellmall-sakuraheian-20261101-sale",
+      "title": "さくら平安堂 歳末大感謝祭（ベルモール）",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-14",
+      "prefecture": "栃木県",
+      "municipality": "宇都宮市",
+      "venue": "ベルモール さくら平安堂",
+      "address": "栃木県宇都宮市陽東6-2-1",
+      "summary": "印鑑・印材の期間限定割引販売。特価セットは10セット限定で、売り切れ次第終了。店舗の通常営業とは別に11月1日～14日の期間限定催事として公式告知あり。",
+      "source_name": "ベルモール公式ショップニュース",
+      "source_url": "https://www.bellmall.co.jp/shopinfo/421",
+      "official_url": "https://www.bellmall.co.jp/shopinfo/421",
+      "checked_on": "2026-11-05",
+      "latitude": null,
+      "longitude": null,
+      "coordinate_status": "unverified",
+      "category": "期間限定セール"
     }
   ],
   "generated_on": "2026-11-05",
