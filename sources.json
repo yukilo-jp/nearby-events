@@ -228,6 +228,78 @@
       "type": "official_facility",
       "added_on": "2026-11-05",
       "note": "主催が外部団体の催しは公園公式一覧に未掲載の場合がある。会場・主催者SNSも照合。"
+    },
+    {
+      "region": "栃木県真岡市",
+      "name": "真岡グリーンツーリズム推進協議会 ニュース",
+      "url": "https://moka-greentourism.com/news/",
+      "type": "official_organizer",
+      "added_on": "2026-11-05",
+      "note": "とこテラマルシェなど。市公式とSNS案内も照合。"
+    },
+    {
+      "region": "栃木県茂木町",
+      "name": "森と里のつながるマルシェ実行委員会公式ブログ",
+      "url": "https://morimaru2014.hatenablog.com/",
+      "type": "official_organizer",
+      "added_on": "2026-11-05",
+      "note": "イベント名に開催年が付かないことがあるため当年投稿の日付と曜日を照合。"
+    },
+    {
+      "region": "栃木県益子町",
+      "name": "和食 杣 公式",
+      "url": "https://wasyoku-soma.jimdofree.com/",
+      "type": "official_venue",
+      "added_on": "2026-11-05",
+      "note": "HOPES/SOMAFES等の継続監視。通常の食堂営業はイベントにしない。"
+    },
+    {
+      "region": "茨城県笠間市",
+      "name": "BOOK KASAMA 主催者",
+      "url": "https://bookkasama.com/",
+      "type": "official_organizer",
+      "added_on": "2026-11-05",
+      "note": "植物・クラフト・手づくり市の別名シリーズ（ボタニカルライフ、めでる、カラフル等）をチェック。"
+    },
+    {
+      "region": "茨城県笠間市",
+      "name": "BOOK KASAMA 公式Instagram",
+      "url": "https://www.instagram.com/bookkasama/",
+      "type": "official_organizer_social",
+      "added_on": "2026-11-05",
+      "note": "一般に公開された投稿のみ確認。非公開・ログイン制限を回避しない。"
+    },
+    {
+      "region": "栃木県鹿沼市",
+      "name": "鹿沼市公式イベントカレンダー",
+      "url": "https://www.city.kanuma.tochigi.jp/viewer/calendar-monthly.html",
+      "type": "official_calendar",
+      "added_on": "2026-11-05",
+      "note": "清洲・東部台など地区コミュニティ祭・マルシェの個別案内へ辿る。"
+    },
+    {
+      "region": "栃木県・関東",
+      "name": "ミネラルマルシェ 主催者年間予定",
+      "url": "https://www.mineralshow.net/schedule/",
+      "type": "official_organizer",
+      "added_on": "2026-11-05",
+      "note": "手しごとマーケットなど併催有。日別開催時刻に注意。"
+    },
+    {
+      "region": "関東・甲信越・南東北",
+      "name": "まるまち 地域マルシェ情報",
+      "url": "https://marumachi.org/",
+      "type": "discovery",
+      "added_on": "2026-11-05",
+      "note": "公開SNS投稿への導線と候補抽出に使用。掲載前に主催者・施設公式の当年情報で照合。"
+    },
+    {
+      "region": "関東・甲信越・南東北",
+      "name": "植物マルシェ イベント候補集",
+      "url": "https://botanical-zone.tokyo/",
+      "type": "discovery",
+      "added_on": "2026-11-05",
+      "note": "SNS埋め込みを候補発見のみに使用。SNS本文取得不能はアクセス確認不能として扱う。"
     }
   ],
   "collection_policy": {
@@ -273,7 +345,15 @@
         "三王山ふれあい公園 イベント",
         "Lykke Field Note"
       ],
-      "coverage": "市貝町周辺50kmの重点検索でSNS発小規模イベントを優先しつつ13都県の調査枠を保持。"
+      "coverage": "市貝町周辺50kmの重点検索でSNS発小規模イベントを優先しつつ13都県の調査枠を保持。",
+      "additional_query_patterns": [
+        "施設名＋2026年11月・12月＋主催者・出店者・開催・ワークショップ",
+        "地域名＋『朝市』『HOPES』『ひつじ』『森の時間』『とこテラ』『つながるマルシェ』など固有名詞・短い愛称",
+        "Instagram公開投稿やブログの出店者紹介→主催イベントへ逆引き",
+        "自治体の当月イベント一覧→『マルシェ』の文字がないイベントの個別告知も開く",
+        "植物/鉱物/クラフト/オーガニック/子ども体験などテーマ別の小規模主催サイト"
+      ],
+      "check_rule": "一般に公開されたSNS投稿・主催ブログ・会場告知・ユーザー提供の当年チラシから候補を発見。ログイン要求、403、404、キャッシュ欠落等は回避しない。候補発見だけのポータル記事は掲載根拠にしない。時刻の異なる時間帯は別レコードまたは正確なsummaryで記録し、一律時間で誤認させない。イベント名に『マルシェ』がなくても単発の朝市・体験・クラフト販売を確認する。"
     }
   },
   "recurring_watchlist": [
