@@ -50,8 +50,8 @@
     "長野県松本市",
     "長野県長野市"
   ],
-  "published_events": 96,
-  "located_events": 64,
+  "published_events": 97,
+  "located_events": 65,
   "unlocated_events": 32,
   "contains_personal_location": false,
   "automation": {
@@ -59,7 +59,7 @@
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。",
+  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。 2026-11-05 下野市のLykke森の時間を当年の主催関係者公開告知画像から1件追補。会場住所・概算座標を公開地図で照合。投稿の固有リンク取得不可・直前変更未確認。イベント登録件数を97、座標あり65・なし32に更新。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -584,5 +584,62 @@
       "HondaFes 2027の当年公式発表は今回の検索では確認できず、未発表確定とはしていない"
     ],
     "note": "既存95件の一斉再検証は未実施。確認した市貝町2件のみchecked_onを再設定。位置情報未検証の新規1件はnull/unverified。"
+  },
+  "social_flyer_followup_20261105": {
+    "checked_on": "2026-11-05",
+    "status": "partial_confirmation_from_user_supplied_public_organizer_flyer",
+    "added_events": 1,
+    "event_id": "shimotsuke-20261107-lykke-morinojikan",
+    "title": "Lykke Field Note 02 again 森の時間 ～秋を愉しむ～",
+    "source_name": "Y’sワークス Instagram（主催関係者の公開投稿画像・ユーザー提供）",
+    "source_profile_url": "https://www.instagram.com/y.s._works/",
+    "source_provenance": "ユーザー提供のInstagram投稿スクリーンショット（表示アカウント y.s._works）、当年のイベント告知画像。SNS投稿そのものには外部取得でアクセスできず、投稿の固有URLは確認できていない。過去の栃ナビ掲載でY’sワークスが同系列イベントの問合せ先だったことも別途確認。",
+    "photo_reproduction": false,
+    "event_details_confirmed_from_flyer": [
+      "2026-11-07",
+      "10:00-16:00",
+      "三王山ふれあい公園",
+      "Lykke Field Note 02 again 森の時間",
+      "雨天・荒天中止",
+      "屋外飲食・雑貨・工作・キャンプ/犬関連"
+    ],
+    "venue_verified_with": "https://www.sannouyama-fureai-park.com/",
+    "coordinate_verified_with": "https://mapfan.com/spots/S5IY3%2CJ%2CXZ59Y0",
+    "source_review": [
+      {
+        "name": "主催関係者Y’sワークスのInstagram告知画像",
+        "status": "user_supplied_screenshot_examined",
+        "checked_on": "2026-11-05"
+      },
+      {
+        "name": "三王山ふれあい公園公式サイト",
+        "url": "https://www.sannouyama-fureai-park.com/",
+        "status": "venue_address_confirmed_no_specific_post_found"
+      },
+      {
+        "name": "MapFan 三王山ふれあい公園",
+        "url": "https://mapfan.com/spots/S5IY3%2CJ%2CXZ59Y0",
+        "status": "approximate_venue_coordinate_confirmed"
+      },
+      {
+        "name": "栃ナビ（Lykke Field Note 03）」",
+        "url": "https://www.tochinavi.net/event/home/?id=23246",
+        "status": "prior_event_organizer_reference_only"
+      }
+    ],
+    "unresolved": [
+      "2026-11-07の主催者SNS投稿をWebで直接取得できず、イベント固有パーマリンクが未取得。プロフィールURLを参照先として登録。",
+      "イベント開催直前の中止・変更、参加費、ワークショップ毎の予約/定員は未確認。",
+      "園内一般区域のペット同伴制限とドッグラン利用条件は公式施設ルールを優先。",
+      "全出店場所・受付位置は公園代表座標から特定できない。"
+    ],
+    "prevention": "定期差分調査の市貝町50km重点枠で施設公式一覧だけでなく、過去の開催名・主催/関係者SNS、出店者告知、場所名×開催年×マルシェ/ワークショップ等の公開SNS発イベントを探索。閲覧制限は回避しない。",
+    "investigated_prefectures": [
+      "栃木県"
+    ],
+    "published_prefectures": [
+      "栃木県"
+    ],
+    "notes": "今回はユーザー提供1件を個別照合した追補。対象13都県を網羅調査したものではない。"
   }
 }
