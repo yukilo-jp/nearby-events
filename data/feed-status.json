@@ -8,40 +8,58 @@
     "南東北"
   ],
   "published_municipalities": [
-    "栃木県市貝町",
-    "栃木県益子町",
-    "栃木県宇都宮市",
-    "栃木県足利市",
-    "栃木県下野市",
-    "埼玉県狭山市",
-    "茨城県小美玉市",
-    "東京都八王子市",
-    "栃木県芳賀町",
-    "宮城県多賀城市",
-    "山形県山形市",
-    "新潟県新潟市",
-    "長野県長野市",
-    "福島県いわき市",
     "千葉県千葉市",
-    "茨城県土浦市",
-    "群馬県玉村町",
+    "千葉県柏市",
     "埼玉県さいたま市",
+    "埼玉県上尾市",
+    "埼玉県北本市",
+    "宮城県仙台市",
+    "宮城県多賀城市",
+    "宮城県登米市",
+    "山形県山形市",
+    "山梨県富士河口湖町",
+    "山梨県甲府市",
+    "新潟県弥彦村",
+    "新潟県新潟市",
+    "東京都八王子市",
+    "東京都千代田区",
+    "東京都大田区",
     "東京都武蔵野市",
-    "神奈川県横浜市",
+    "東京都江東区",
+    "栃木県下野市",
+    "栃木県宇都宮市",
+    "栃木県小山市",
+    "栃木県市貝町",
     "栃木県栃木市",
+    "栃木県益子町",
+    "栃木県芳賀町",
+    "栃木県足利市",
+    "神奈川県厚木市",
+    "神奈川県横浜市",
+    "福島県いわき市",
+    "福島県福島市",
+    "福島県郡山市",
+    "群馬県安中市",
+    "群馬県桐生市",
+    "群馬県玉村町",
+    "茨城県つくば市",
+    "茨城県土浦市",
+    "茨城県小美玉市",
     "茨城県笠間市",
-    "宮城県仙台市"
+    "長野県上田市",
+    "長野県松本市",
+    "長野県長野市"
   ],
-  "published_events": 53,
-  "located_events": 53,
-  "unlocated_events": 0,
+  "published_events": 95,
+  "located_events": 64,
+  "unlocated_events": 31,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "ChatGPTによる単発手動更新。13都県全域を網羅した確認ではない。今回、公式ページで開催期間・日時・会場を確認した7件を追補。座標未検証の追加分は距離検索に反映されない場合がある。Codexの自動化スケジュールは変更していない。 2026-11-05にうずまの竹あかりの代表地点座標を追加（概算）。 2026-11-05に道の駅やまがた蔵王の7イベントへ、公式アクセス地図の代表座標を追加（会場区画の違いを考慮し概算扱い）。 2026-11-05にふくしまふるさと祭りの会場代表座標を追加（施設中心の概算）。 2026-11-05に公式アクセス地図等で確認できた11イベントの会場代表座標を追加。座標確認ができない9件はnullのまま維持。 2026-11-05に利用者依頼に基づき、残る9件を会場住所と公開地図で照合して概算座標を追加。広域型は代表地点を明示し、距離・ナビが全会場を示すものではない旨をイベント表示にも反映。",
+  "note": "2026-11-05 マルシェ・ワークショップ等の重点調査で22件追加し、events.json全95件（位置検証済み64件、位置未設定31件）に公開フィードの実数を照合。旧statusのpublished_events=53はイベント追加後に未更新だったため訂正した。対象13都県について県別3系列以上の発見検索を試したが、各都県の全公式アーカイブ・全施設を確認し終えたわけではない。市貝町50km重点枠は維持。アプリ側の取得・表示成功は確認していない。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -166,22 +184,22 @@
     {
       "id": "honda-soyukai-haga-sakura",
       "year": 2026,
-      "checked_on": "2026-11-04",
+      "checked_on": "2026-11-05",
       "status": "announced_venue_reference_located",
       "start_date": "2026-11-29",
       "source_url": "https://www.26hondafes-heartstudios.com/",
-      "note": "2026年開催は公式サイトで確認済み。ユーザー提供の本田技術研究所 四輪R&Dセンター（栃木）会場を参照。イベント来場入口・駐車場の公式案内は未確認。"
+      "note": "2026/11/29開催10:00～17:30を当年公式サイトの公開情報で再確認。来場入口・駐車場の詳細は引き続き未確認。"
     },
     {
       "id": "honda-soyukai-haga-sakura",
       "year": 2027,
-      "checked_on": "2026-11-04",
+      "checked_on": "2026-11-05",
       "status": "official_announcement_not_found",
       "source_urls": [
         "https://www.26hondafes-heartstudios.com/",
         "https://25soyukai.wixsite.com/mysite"
       ],
-      "note": "27HondaFes・2027 Honda祭り/ホンダ祭り・双友会・芳賀/さくら地区を公式サイト・別名で検索したが、2027年の公式開催発表を確認できず。未発表か確認不能かの確定はせず、継続監視。"
+      "note": "2027/27HondaFes・Honda祭り・双友会・芳賀/さくら地区を検索。2026公式サイトは確認できたが2027公式の開催案内は今回の検索では見つからず、開催自体の未発表確定とは扱わない。"
     }
   ],
   "supplemental_run": {
@@ -360,5 +378,189 @@
         "note": "公式イベント案内の主要眺望地点・大さん橋を広域開催の代表点として使用。"
       }
     ]
+  },
+  "focused_marche_workshop_run": {
+    "checked_on": "2026-11-05",
+    "scope": "2026-11-05〜2027-01-04（60日先まで）。市貝町周辺50km重点＋13都県を県別検索。HondaFesは別枠。",
+    "status": "partial",
+    "feed_event_count": 95,
+    "previous_feed_count": 73,
+    "added_events": 22,
+    "current_counts_by_prefecture": {
+      "栃木県": 26,
+      "茨城県": 7,
+      "東京都": 7,
+      "宮城県": 6,
+      "山形県": 11,
+      "新潟県": 3,
+      "長野県": 6,
+      "福島県": 4,
+      "千葉県": 8,
+      "群馬県": 4,
+      "埼玉県": 6,
+      "神奈川県": 3,
+      "山梨県": 2
+    },
+    "discovery_search_policy": "県ごとに (1)2026年11〜12月マルシェ／ワークショップ総合検索、(2)県・市町村・観光公式ページの個別検索、(3)地域×道の駅／イオン／商業施設／主催者を検索した。検索した地域と掲載地域は別に記録。各県全件走査を達成したとは扱わない。",
+    "searched_prefectures": [
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県",
+      "山梨県",
+      "長野県",
+      "新潟県",
+      "宮城県",
+      "山形県",
+      "福島県"
+    ],
+    "published_prefectures_of_this_run": [
+      "栃木県",
+      "茨城県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "山梨県",
+      "長野県",
+      "新潟県",
+      "宮城県",
+      "福島県"
+    ],
+    "verified_or_reviewed_sources": [
+      {
+        "region": "栃木県",
+        "name": "TANOKURA Seeders",
+        "url": "https://tano-kura.net/eventschedule/",
+        "detail_pages": [
+          "https://tano-kura.net/event/other/kiyotoko2026/",
+          "https://tano-kura.net/event/other/wsf202611/",
+          "https://tano-kura.net/event/other/babykids_261129/"
+        ]
+      },
+      {
+        "region": "茨城県",
+        "name": "つくば市公式（検索インデックス確認）",
+        "url": "https://www.city.tsukuba.lg.jp/syuhenshigaichi/news/24640.html"
+      },
+      {
+        "region": "群馬県",
+        "name": "安中市公式",
+        "url": "https://www.city.annaka.lg.jp/site/mayor/31374.html"
+      },
+      {
+        "region": "群馬県・埼玉県",
+        "name": "彩の国マルシェ主催者",
+        "url": "https://sainokunimarche.com/"
+      },
+      {
+        "region": "千葉県",
+        "name": "千葉県公式 2026年11月4日発表",
+        "url": "https://www.pref.chiba.lg.jp/shoji/press/2026/marushe8.html"
+      },
+      {
+        "region": "東京都",
+        "name": "東京国際フォーラム・GladMarche主催者",
+        "url": "https://gladmarche.jp/tif.html"
+      },
+      {
+        "region": "東京都",
+        "name": "豊洲ぐるりパーク施設運営者",
+        "url": "https://toyosugururi.jp/event/style-market/entry-1099.html"
+      },
+      {
+        "region": "山梨県",
+        "name": "山梨県よろず支援拠点",
+        "url": "https://yamanashiyorozu.go.jp/news/11835/"
+      },
+      {
+        "region": "長野県",
+        "name": "MAKEmarché主催者",
+        "url": "https://make-marche.e-shinzan.com/"
+      },
+      {
+        "region": "長野県",
+        "name": "松本市観光公式",
+        "url": "https://visitmatsumoto.com/event/detail_5772.html"
+      },
+      {
+        "region": "新潟県",
+        "name": "新潟市秋葉区役所だより",
+        "url": "https://www.city.niigata.lg.jp/akiha/kohoshi/kouhou/r08/akiha_1101/akiha_470_2.html"
+      },
+      {
+        "region": "宮城県",
+        "name": "仙台市公式",
+        "url": "https://www.city.sendai.jp/noshoku/event/shukakumatsuri_r8.html"
+      },
+      {
+        "region": "宮城県",
+        "name": "BRANCH仙台公式",
+        "url": "https://www.branch-sc.com/sendai/shop/eventnews.jsp?cat=16"
+      },
+      {
+        "region": "福島県",
+        "name": "いわき市観光サイト",
+        "url": "https://kankou-iwaki.or.jp/event/52459"
+      },
+      {
+        "region": "福島県",
+        "name": "道の駅ふくしま公式",
+        "url": "https://m-fukushima.com/info/702"
+      }
+    ],
+    "discovery_only_sources": [
+      "まるまち（地域別一覧）",
+      "ウォーカープラス",
+      "各県観光ポータル",
+      "ふらっとろーかる",
+      "各種商業施設カレンダー"
+    ],
+    "failed_or_unconfirmed_sources": [
+      {
+        "name": "つくば市『さくらマルシェ オータム』個別告知",
+        "url": "https://www.city.tsukuba.lg.jp/syuhenshigaichi/news/24640.html",
+        "type": "retrieval_failure",
+        "reason": "検索結果は2026年10月更新の自治体本文を示すが個別ページ再取得が404。開催中止の有無は直接再確認できていない。"
+      },
+      {
+        "name": "千葉県2つのマルシェ個別告知",
+        "url": "https://www.pref.chiba.lg.jp/shoji/press/2026/marushe8.html",
+        "type": "retrieval_failure",
+        "reason": "11月4日付の公式検索情報は確認したが、ページを開く操作ではキャッシュ欠落。直前の変更は未確認。"
+      },
+      {
+        "name": "山形クリスマスマーケット2026",
+        "url": "https://yamagata-christmas.com/",
+        "type": "stale_content_conflict",
+        "reason": "検索結果に2026開催情報がある一方、開けたページ本文は2025版だったため今回は新規追加を保留。"
+      },
+      {
+        "name": "彩の国マルシェ主催者ページ",
+        "url": "https://sainokunimarche.com/",
+        "type": "stale_cache",
+        "reason": "検索インデックスには2026年11月の開催日が見えるが、再取得本文は2か月前の記録。出店内容・最新の中止変更は未確認。"
+      },
+      {
+        "name": "グラッドマルシェ・豊洲公園などの座標",
+        "type": "unverified_coordinate",
+        "reason": "本実行では住所・公式地図から会場に一致する数値座標を確定できず、null/unverifiedで追加。"
+      },
+      {
+        "name": "神奈川県等の候補",
+        "type": "not_published",
+        "reason": "候補検索は実施したが個別告知の再取得・当年条件照合が完了しなかったため新規件数が0の県もある。"
+      },
+      {
+        "name": "対象13都県の道の駅・商業施設・自治体アーカイブ全件",
+        "type": "not_fully_reviewed",
+        "reason": "今回はマルシェ・ワークショップ重点の部分的調査。施設の全件走査は未了、アクセス不能と未調査は区別。"
+      }
+    ],
+    "exclusions": "通常営業・恒常広告・日時なし告知・過去開催・出店者のみの募集・招待限定は来場者向け新規イベントとして登録しない。県別検索のヒット数を公開掲載件数と混同しない。",
+    "gps_privacy": "端末の現在地・移動履歴は取得していない。"
   }
 }
