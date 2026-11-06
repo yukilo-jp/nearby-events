@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "partial",
-  "checked_on": "2026-11-05",
+  "checked_on": "2026-11-06",
   "target_regions": [
     "関東",
     "甲信越",
@@ -54,16 +54,16 @@
     "長野県松本市",
     "長野県長野市"
   ],
-  "published_events": 108,
+  "published_events": 111,
   "located_events": 108,
-  "unlocated_events": 0,
+  "unlocated_events": 3,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
     "environment": "local Codex; Mac must be awake and app running",
     "unattended_first_run_verified": false
   },
-  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。 2026-11-05 下野市のLykke森の時間を当年の主催関係者公開告知画像から1件追補。会場住所・概算座標を公開地図で照合。投稿の固有リンク取得不可・直前変更未確認。イベント登録件数を97、座標あり65・なし32に更新。 2026-11-05夜：SNS/主催ブログ・公式施設一覧の地元再調査で11レコード（朝市と午後が非連続のHOPESは2件）を追加。events.json 108件、座標あり72件、未設定36件。対象は市貝町50km重点と周辺の一部のみ、13都県全件調査ではない。出店者募集・前年日付のみでは掲載しない。 2026-11-05 座標のみの追加点検で未設定36件に会場・住所を照合した概算代表座標を追加、総108件・座標あり108件・座標未設定0件。開催日時・中止は本作業で原則再確認しておらず、個別イベントのchecked_onは変更していない。所在地のピンが受付・入口や沿道・広域・複数会場全体を示すわけではない。",
+  "note": "2026-11-05夕方、道の駅サシバの里いちかいとベルモールの公式ページを照合。期間限定セール1件追加、花植え・オータムマルシェ2件再確認。公開96件、座標確認済み64件、未確認32件。木曜の差分チェックのみ実施。全施設・13都県未網羅のためpartial。 2026-11-05 下野市のLykke森の時間を当年の主催関係者公開告知画像から1件追補。会場住所・概算座標を公開地図で照合。投稿の固有リンク取得不可・直前変更未確認。イベント登録件数を97、座標あり65・なし32に更新。 2026-11-05夜：SNS/主催ブログ・公式施設一覧の地元再調査で11レコード（朝市と午後が非連続のHOPESは2件）を追加。events.json 108件、座標あり72件、未設定36件。対象は市貝町50km重点と周辺の一部のみ、13都県全件調査ではない。出店者募集・前年日付のみでは掲載しない。 2026-11-05 座標のみの追加点検で未設定36件に会場・住所を照合した概算代表座標を追加、総108件・座標あり108件・座標未設定0件。開催日時・中止は本作業で原則再確認しておらず、個別イベントのchecked_onは変更していない。所在地のピンが受付・入口や沿道・広域・複数会場全体を示すわけではない。 2026-11-06金曜：公式確認済み3件追加。県別発見検索は実施したが各県最低3検索・2系統確認や全施設・一覧のページ送り未達。金曜朝6時ではなく夕方確認。公開フィードのみ更新。",
   "manual_run": {
     "checked_on": "2026-11-04",
     "environment": "ChatGPT manual one-off run",
@@ -188,22 +188,22 @@
     {
       "id": "honda-soyukai-haga-sakura",
       "year": 2026,
-      "checked_on": "2026-11-05",
+      "checked_on": "2026-11-06",
       "status": "announced_venue_reference_located",
       "start_date": "2026-11-29",
       "source_url": "https://www.26hondafes-heartstudios.com/",
-      "note": "2026-11-05に公式https://www.26hondafes-heartstudios.com/を検索・確認し11/29・10:00〜17:30の表示を確認。来場者用入口・駐車場詳細は追加確認していない。"
+      "note": "2026-11-05に公式https://www.26hondafes-heartstudios.com/を検索・確認し11/29・10:00〜17:30の表示を確認。来場者用入口・駐車場詳細は追加確認していない。 2026-11-06検索確認。2026年公式は11/29 10:00〜17:30、2027年公式告知は今回検索で未発見（未発表と断定しない）。"
     },
     {
       "id": "honda-soyukai-haga-sakura",
       "year": 2027,
-      "checked_on": "2026-11-05",
+      "checked_on": "2026-11-06",
       "status": "official_announcement_not_found_in_current_search",
       "source_urls": [
         "https://www.26hondafes-heartstudios.com/",
         "https://25soyukai.wixsite.com/mysite"
       ],
-      "note": "2026-11-05に27HondaFes/2027芳賀双友会を検索し公式2027開催情報を発見できず。未発表と断定せず継続監視、前年会場・日時は流用していない。"
+      "note": "2026-11-05に27HondaFes/2027芳賀双友会を検索し公式2027開催情報を発見できず。未発表と断定せず継続監視、前年会場・日時は流用していない。 2026-11-06検索確認。2026年公式は11/29 10:00〜17:30、2027年公式告知は今回検索で未発見（未発表と断定しない）。"
     }
   ],
   "supplemental_run": {
@@ -885,5 +885,171 @@
     "event_content_reverification": "実施していない。今回座標のみ更新のため既存checked_on維持。",
     "privacy": "端末の現在地・移動履歴・個人識別情報を取得していない。",
     "data_only": "アプリコード/APK変更なし。GitHub公開フィードの更新とiPhone取得完了は別。"
+  },
+  "daily_run_20261106": {
+    "checked_on": "2026-11-06",
+    "status": "partial",
+    "window": "2026-11-06〜2027-01-05",
+    "weekday": "金曜日",
+    "weekend_check_time": "2026-11-06夕方（朝6時の確認ではない）",
+    "added_events": 3,
+    "updated_event_checks": 4,
+    "cancelled_events": 0,
+    "confirmed_cancellations": 0,
+    "unverified_existing_events": "個別再確認していないイベントはchecked_onを維持",
+    "published_events": 111,
+    "located_events": 108,
+    "unlocated_events": 3,
+    "verified_sources": [
+      {
+        "name": "栃木県公式 とも家事フェス",
+        "url": "https://www.pref.tochigi.lg.jp/c07/houdou/houdou/tomokajiibennto202611.html"
+      },
+      {
+        "name": "ひたちなか市公式 コーヒーフェス",
+        "url": "https://www.city.hitachinaka.lg.jp/business/kankoshinko/1002695/1014541.html"
+      },
+      {
+        "name": "石岡市観光協会 柿岡城まつり",
+        "url": "https://www.ishioka-kankou.com/events/ishioka-fureai-matsuri-autumn-2026/"
+      },
+      {
+        "name": "道の駅サシバの里いちかい",
+        "url": "https://www.michinoeki-ichikai.jp/"
+      },
+      {
+        "name": "ベルモール公式イベント一覧",
+        "url": "https://www.bellmall.co.jp/event/"
+      },
+      {
+        "name": "道の駅ましこ公式カレンダー",
+        "url": "https://m-mashiko.com/calendar/"
+      },
+      {
+        "name": "航空自衛隊公式イベント",
+        "url": "https://www.mod.go.jp/asdf/event/"
+      }
+    ],
+    "searched_prefectures": [
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県",
+      "山梨県",
+      "長野県",
+      "新潟県",
+      "宮城県",
+      "山形県",
+      "福島県"
+    ],
+    "prefecture_research_status": {
+      "茨城県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "栃木県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "群馬県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "埼玉県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "千葉県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "東京都": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "神奈川県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "山梨県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "長野県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "新潟県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "宮城県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "山形県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      },
+      "福島県": {
+        "status": "partial",
+        "reason": "県名で発見検索を実施。自治体・観光・施設の3種検索および2系統の個別照合は未完了。"
+      }
+    },
+    "weekend_checks": [
+      {
+        "event": "市貝町 花いっぱい市貝",
+        "status": "official_checked",
+        "note": "11/7 10:00〜11:30、まちおこしセンター前受付、無料、小雨決行・荒天中止、電話/FAX申込",
+        "url": "https://www.michinoeki-ichikai.jp/event/2056/"
+      },
+      {
+        "event": "市貝町 オータムマルシェ",
+        "status": "official_checked",
+        "note": "11/8 10:00開始、終了時刻未公表",
+        "url": "https://www.michinoeki-ichikai.jp/"
+      },
+      {
+        "event": "いちかいサシバの里めぐり",
+        "status": "official_checked",
+        "note": "11/8、施設別時間、ガイドウォーク11:00/13:00、商品券交換17:00まで",
+        "url": "https://www.michinoeki-ichikai.jp/event/2046/"
+      },
+      {
+        "event": "ベルモール 11/7・11/8",
+        "status": "listing_checked_only",
+        "note": "イベント一覧の日付を確認。個別参加条件は未再確認",
+        "url": "https://www.bellmall.co.jp/event/"
+      }
+    ],
+    "honda_fes": {
+      "checked_on": "2026-11-06",
+      "year_2026": "official_announced_2026-11-29_10:00_to_17:30",
+      "year_2027": "official_announcement_not_found_in_current_search_not_asserted_unannounced",
+      "url": "https://www.26hondafes-heartstudios.com/",
+      "access_parking": "画像内の詳細までは再検証していない"
+    },
+    "holiday_check": {
+      "status": "partial",
+      "note": "内閣府の祝日概要を参照。11/23勤労感謝の日と2027/1/1元日。祝日CSVの全件再照合は未完了",
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+    },
+    "not_checked": [
+      "13都県の全自治体・全施設",
+      "あぜみち各店・FKD・イオン全店",
+      "公式一覧の全ページ送り・過去記事の横断",
+      "週末全イベントの駐車場・予約締切・雨天条件"
+    ],
+    "failed_sources": [
+      {
+        "name": "山梨観光サイトの秋の勝沼マルシェ個別ページ",
+        "reason": "取得時タイムアウト。再試行と主催者確認未完了のため登録見送り"
+      }
+    ],
+    "coordinate_policy": "新規3件は未検証で緯度経度null。既存座標は変更しない。",
+    "device_sync": "未確認。GitHub公開フィード更新と端末反映は別。"
   }
 }
