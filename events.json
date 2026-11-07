@@ -2392,14 +2392,16 @@
       "municipality": "矢板市",
       "venue": "矢板市文化スポーツ複合施設",
       "address": "栃木県矢板市末広町49番地1",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 36.8029867,
+      "longitude": 139.9370787,
+      "coordinate_status": "venue_approximate",
       "summary": "親子で家事クエストや企業ブースを巡る体験イベント。抽選会やキャラクターとの交流も予定。個別企画の参加条件は公式案内を確認。",
       "official_url": "https://www.pref.tochigi.lg.jp/c07/houdou/houdou/tomokajiibennto202611.html",
       "source_name": "栃木県公式",
       "source_url": "https://www.pref.tochigi.lg.jp/c07/houdou/houdou/tomokajiibennto202611.html",
-      "checked_on": "2026-11-06"
+      "checked_on": "2026-11-06",
+      "coordinate_source_url": "https://mapfan.com/spots/SCCQ4,J,S7W",
+      "coordinate_note": "2026-11-07: 施設住所とMapFan同名施設を照合。施設代表地点。"
     },
     {
       "id": "hitachinaka-20261114-coffee-festival",
@@ -2412,14 +2414,16 @@
       "municipality": "ひたちなか市",
       "venue": "プロンちゃんパーク（ひたちなか市親水性中央公園）",
       "address": "茨城県ひたちなか市 親水性中央公園",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 36.3925,
+      "longitude": 140.5372,
+      "coordinate_status": "venue_approximate",
       "summary": "コーヒー・マーケットなど100店超が集まる催し。子ども向け工作もあり、入場無料。11/14は11:00〜19:00（飲食・物販17:00まで、屋外映画17:00頃〜）、11/15は11:00〜16:00。会場駐車場は利用不可、勝田駅から有料シャトルバスあり。",
       "official_url": "https://www.city.hitachinaka.lg.jp/business/kankoshinko/1002695/1014541.html",
       "source_name": "ひたちなか市公式",
       "source_url": "https://www.city.hitachinaka.lg.jp/business/kankoshinko/1002695/1014541.html",
-      "checked_on": "2026-11-06"
+      "checked_on": "2026-11-06",
+      "coordinate_source_url": "https://www.city.hitachinaka.lg.jp/_res/projects/default_project/_page_/001/016/095/betten_sinnsuisei.pdf",
+      "coordinate_note": "2026-11-07: 市公式配置図と周辺公開地図に基づく公園内の推定代表地点。受付・入口とは限らない。"
     },
     {
       "id": "ishioka-20261115-kakioka-festival",
@@ -2432,17 +2436,19 @@
       "municipality": "石岡市",
       "venue": "柿岡商店街（広域・歩行者天国）",
       "address": "茨城県石岡市柿岡 柿岡商店街一帯",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 36.24247675,
+      "longitude": 140.1936341,
+      "coordinate_status": "venue_approximate",
       "summary": "特産品・キッチンカー、ステージ、高円寺阿波踊り、レトロバス体験など。交通規制は10:00〜16:00。商店街の複数地点で開催するため受付・駐車場は公式案内を確認。",
       "official_url": "https://www.ishioka-kankou.com/events/ishioka-fureai-matsuri-autumn-2026/",
       "source_name": "石岡市観光協会公式",
       "source_url": "https://www.ishioka-kankou.com/events/ishioka-fureai-matsuri-autumn-2026/",
-      "checked_on": "2026-11-06"
+      "checked_on": "2026-11-06",
+      "coordinate_source_url": "https://osanpo.yokohama/location.php?L_ID=2444&O_ID=0",
+      "coordinate_note": "2026-11-07: 商店街沿いの八坂神社を代表地点に採用。沿道の全会場を示さない。"
     }
   ],
-  "generated_on": "2026-11-06",
+  "generated_on": "2026-11-07",
   "holiday_dates": [
     "2026-11-23",
     "2027-01-01"
