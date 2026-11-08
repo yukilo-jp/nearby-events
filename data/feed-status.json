@@ -1053,29 +1053,23 @@
     "device_sync": "未確認。GitHub公開フィード更新と端末反映は別。"
   },
   "daily_check": {
-    "date": "2026-11-07",
-    "mode": "Saturday daily delta",
-    "new_events": 3,
-    "corrected_events": 0,
-    "cancelled_events": 0,
-    "confirmed_sources": [
+    "date": "2026-11-08",
+    "mode": "daily_diff_sunday",
+    "official_sources_checked": [
       "https://www.michinoeki-ichikai.jp/",
+      "https://www.michinoeki-ichikai.jp/news/",
       "https://www.bellmall.co.jp/event/",
-      "https://www.bellmall.co.jp/event/432",
-      "https://minnano-azemichi.com/"
+      "https://www.town.mashiko.lg.jp/page/page002441.html",
+      "https://minnano-azemichi.com/blogs/お知らせ"
     ],
-    "unverified": [
-      "あぜみち中央市場店2件の会場座標は公開地図上で未照合のためnull",
-      "全111件の開催条件の再確認は未実施",
-      "13都県の網羅調査は本日対象外",
-      "HondaFes翌年の公式発表は今回確認未完了"
+    "verified_existing_event_ids": [
+      "ichikai-20261108-autumn-marche",
+      "ichikai-20261108-sashiba-collab6",
+      "mashiko-20261114-townfestival"
     ],
-    "recurring_checks": {
-      "honda_soyukai_haga_sakura": {
-        "checked_on": "2026-11-07",
-        "status": "not_fully_checked",
-        "note": "公式別名・翌年情報の全組合せ検索は未完了。既存2026掲載は維持。"
-      }
-    }
+    "new_events": 0,
+    "modified_events": 0,
+    "cancelled_events": 0,
+    "unverified": "その他既存イベントの開催条件全件再確認は未実施。あぜみち上戸祭店の新米フェアは公式確認できたが、登録前の座標照合と重複確認が未完了。HondaFes 2027公式発表は今回未調査。"
   }
 }
