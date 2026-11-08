@@ -9,7 +9,7 @@
     "center_label": "市貝町役場",
     "coordinate_source_url": "https://www.town.ichikai.tochigi.jp/div/shoubou/pdf/bousaimusenn/eriazu.pdf"
   },
-  "coverage_note": "2026-11-05に対象13都県を個別検索し、マルシェ・クラフト市・工作教室・親子体験などの公式告知を重点確認。市貝町周辺50kmを重点枠にしつつ広域も検索したが、全都県の全自治体・全施設を網羅していないためstatus=partial。新規イベントは住所に一致する座標が未検証のためnull/unverifiedを維持（端末で距離検索に表示されない場合がある）。開催情報を再確認していない既存イベントのchecked_onは変更しない。過去イベントは履歴用途で保持。 11/5夕方の差分確認：市貝町道の駅公式イベント一覧とベルモールの公式イベント・ショップニュースを照合し、ベルモールの期間限定セール1件を追加。市貝町の花植えとオータムマルシェの個別公式告知を再確認。13都県の網羅調査は本日（木曜）は実施していない。 2026-11-05に下野市『Lykke 森の時間』の2026年開催告知画像を確認して1件追加。Instagram投稿の固有URLは未取得で直前の変更確認は未完了。三王山ふれあい公園の公開住所とMapFanにより概算代表座標を付与した。開催イベント全体の範囲・当日受付場所を示す点ではない。 2026-11-05夜、SNS連動の地元主催者・公式観光カレンダー・個別開催告知を再調査し11件を追加。益子HOPESは朝市と午後の体験・ライブを開催時間が分断されるため2件に分けた。会場住所に対応する検証可能な公開地図がある場合のみ概算代表座標を設定し、それ以外はnull/unverified。対象は市貝町周辺を重点とする一部地域で全域網羅ではない。SNSへのログイン制限を回避せず、出店者募集や前年情報のみを開催確定に使わない。 2026-11-05に座標未設定36件について各会場住所と公開地図を照合し、施設地点・住所に基づく概算代表座標を追加。広域・複数会場はvenue/summaryに代表地点と他会場へのナビではない旨を明記。大田区工和会館のように住所近傍から推定した代表点は建物の正確な位置ではない。今回開催情報を再確認していないため、既存のchecked_onを変更していない。 2026-11-06（金）公式情報差分：栃木県とも家事フェス、ひたちなか市コーヒーフェス、石岡市柿岡城まつりの3件を追加。会場座標未検証のためnull/unverified。市貝町道の駅公式の11/7花植え、11/8オータムマルシェ・スタンプラリーと26HondaFesの開催日を再確認。ベルモール11/7・8一覧も確認したが全イベント個別条件は再確認できていない。13都県の検索は実施したが県ごとの3種検索・2系統確認、全施設・全ページ送りは未完了。金曜週末確認は11/6夕方時点の一部のみで、金曜朝6時実施ではない。status=partial。 11/7は市貝町近郊の公式施設の一部のみ追加確認。13都県全域・全イベントの網羅ではない。",
+  "coverage_note": "2026-11-05に対象13都県を個別検索し、マルシェ・クラフト市・工作教室・親子体験などの公式告知を重点確認。市貝町周辺50kmを重点枠にしつつ広域も検索したが、全都県の全自治体・全施設を網羅していないためstatus=partial。新規イベントは住所に一致する座標が未検証のためnull/unverifiedを維持（端末で距離検索に表示されない場合がある）。開催情報を再確認していない既存イベントのchecked_onは変更しない。過去イベントは履歴用途で保持。 11/5夕方の差分確認：市貝町道の駅公式イベント一覧とベルモールの公式イベント・ショップニュースを照合し、ベルモールの期間限定セール1件を追加。市貝町の花植えとオータムマルシェの個別公式告知を再確認。13都県の網羅調査は本日（木曜）は実施していない。 2026-11-05に下野市『Lykke 森の時間』の2026年開催告知画像を確認して1件追加。Instagram投稿の固有URLは未取得で直前の変更確認は未完了。三王山ふれあい公園の公開住所とMapFanにより概算代表座標を付与した。開催イベント全体の範囲・当日受付場所を示す点ではない。 2026-11-05夜、SNS連動の地元主催者・公式観光カレンダー・個別開催告知を再調査し11件を追加。益子HOPESは朝市と午後の体験・ライブを開催時間が分断されるため2件に分けた。会場住所に対応する検証可能な公開地図がある場合のみ概算代表座標を設定し、それ以外はnull/unverified。対象は市貝町周辺を重点とする一部地域で全域網羅ではない。SNSへのログイン制限を回避せず、出店者募集や前年情報のみを開催確定に使わない。 2026-11-05に座標未設定36件について各会場住所と公開地図を照合し、施設地点・住所に基づく概算代表座標を追加。広域・複数会場はvenue/summaryに代表地点と他会場へのナビではない旨を明記。大田区工和会館のように住所近傍から推定した代表点は建物の正確な位置ではない。今回開催情報を再確認していないため、既存のchecked_onを変更していない。 2026-11-06（金）公式情報差分：栃木県とも家事フェス、ひたちなか市コーヒーフェス、石岡市柿岡城まつりの3件を追加。会場座標未検証のためnull/unverified。市貝町道の駅公式の11/7花植え、11/8オータムマルシェ・スタンプラリーと26HondaFesの開催日を再確認。ベルモール11/7・8一覧も確認したが全イベント個別条件は再確認できていない。13都県の検索は実施したが県ごとの3種検索・2系統確認、全施設・全ページ送りは未完了。金曜週末確認は11/6夕方時点の一部のみで、金曜朝6時実施ではない。status=partial。 11/7は市貝町近郊の公式施設の一部のみ追加確認。13都県全域・全イベントの網羅ではない。 2026-11-09（月）差分確認：千葉市公式の11/21記念パレード、12/11-25千葉クリスマスマーケット、道の駅いわき・ら・ら・ミュウの11/13点灯式・11/21さかなの日大感謝祭、道の駅庄和の12/6交通安全・防犯・防災フェアを当年の公開告知で追補。いずれも会場座標はこの実行では地図根拠を個別照合していないためnull/unverified。13都県の各3検索・各2系統の確認、全自治体・全施設の一覧走査は未完了。",
   "events": [
     {
       "id": "ichikai-20261129-satoyama",
@@ -2514,9 +2514,99 @@
       "source_name": "ベルモール公式",
       "checked_on": "2026-11-07",
       "category": "ワークショップ"
+    },
+    {
+      "id": "chiba-20261121-kaifu-parade",
+      "title": "千葉開府900年記念パレード",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "start_time": "11:00",
+      "end_time": "16:00",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "venue": "千葉駅前大通り～千葉中央公園",
+      "address": "千葉県千葉市中央区中央1丁目付近",
+      "latitude": null,
+      "longitude": null,
+      "summary": "千葉開府900年を記念する市街地パレード。観覧無料・事前申込不要。荒天中止、小雨決行。",
+      "official_url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/identitysuishin/900th_eventparade.html",
+      "source_name": "千葉市公式イベントカレンダー",
+      "source_url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/identitysuishin/900th_eventparade.html",
+      "checked_on": "2026-11-09",
+      "coordinate_status": "unverified"
+    },
+    {
+      "id": "chiba-20261211-christmas-market",
+      "title": "千葉クリスマスマーケット2026",
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-25",
+      "start_time": "10:00",
+      "end_time": "20:00",
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "venue": "千葉中央公園",
+      "latitude": null,
+      "longitude": null,
+      "summary": "飲食・物販ブースやイルミネーション演出を楽しめるクリスマスマーケット。",
+      "official_url": "https://www.city.chiba.jp/toshi/toshi/machizukuri/toshin/annaiban-event/r8event.html",
+      "source_name": "千葉市公式・中心市街地イベント情報",
+      "source_url": "https://www.city.chiba.jp/toshi/toshi/machizukuri/toshin/annaiban-event/r8event.html",
+      "checked_on": "2026-11-09",
+      "coordinate_status": "unverified"
+    },
+    {
+      "id": "iwaki-20261113-christmas-tree-lighting",
+      "title": "クリスマスツリー点灯式",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "prefecture": "福島県",
+      "municipality": "いわき市",
+      "venue": "道の駅いわき・ら・ら・ミュウ",
+      "latitude": null,
+      "longitude": null,
+      "summary": "施設のクリスマスツリー点灯式。開催時刻・当日の内容は公式告知で確認してください。",
+      "official_url": "https://www.lalamew.jp/topics/",
+      "source_name": "道の駅いわき・ら・ら・ミュウ公式",
+      "source_url": "https://www.lalamew.jp/topics/",
+      "checked_on": "2026-11-09",
+      "coordinate_status": "unverified"
+    },
+    {
+      "id": "iwaki-20261121-sakana-thanks",
+      "title": "いわき七浜さかなの日大感謝祭",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "prefecture": "福島県",
+      "municipality": "いわき市",
+      "venue": "道の駅いわき・ら・ら・ミュウ",
+      "latitude": null,
+      "longitude": null,
+      "summary": "魚の日に合わせた施設の感謝イベント。実施内容・時刻は公式ページでご確認ください。",
+      "official_url": "https://www.lalamew.jp/1674/",
+      "source_name": "道の駅いわき・ら・ら・ミュウ公式",
+      "source_url": "https://www.lalamew.jp/1674/",
+      "checked_on": "2026-11-09",
+      "coordinate_status": "unverified"
+    },
+    {
+      "id": "kasukabe-20261206-showa-safety-fair",
+      "title": "交通安全・防犯・防災フェア",
+      "start_date": "2026-12-06",
+      "end_date": "2026-12-06",
+      "prefecture": "埼玉県",
+      "municipality": "春日部市",
+      "venue": "道の駅庄和 交流広場",
+      "latitude": null,
+      "longitude": null,
+      "summary": "交通安全・防犯・防災をテーマにした屋外フェア。開催時刻は公式告知で確認してください。",
+      "official_url": "https://www.michinoeki-showa.or.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E6%83%85%E5%A0%B1/",
+      "source_name": "道の駅庄和公式イベント情報",
+      "source_url": "https://www.michinoeki-showa.or.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E6%83%85%E5%A0%B1/",
+      "checked_on": "2026-11-09",
+      "coordinate_status": "unverified"
     }
   ],
-  "generated_on": "2026-11-08",
+  "generated_on": "2026-11-09",
   "holiday_dates": [
     "2026-11-23",
     "2027-01-01"
@@ -2543,5 +2633,5 @@
       "福島県"
     ]
   },
-  "coverage_label": "栃木・茨城ほか対象13都県の確認済み一部地域（非網羅）"
+  "coverage_label": "栃木・茨城・千葉・埼玉・福島ほか対象13都県の確認済み一部地域（非網羅）"
 }
