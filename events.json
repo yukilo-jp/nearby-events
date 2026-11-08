@@ -2451,9 +2451,9 @@
       "prefecture": "栃木県",
       "municipality": "宇都宮市",
       "address": "栃木県宇都宮市簗瀬町1444-9",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 36.5460072,
+      "longitude": 139.8939895,
+      "coordinate_status": "venue_approximate",
       "checked_on": "2026-11-07",
       "source_name": "農産直売所あぜみち公式",
       "category": "マルシェ・親子体験",
@@ -2466,15 +2466,17 @@
       "venue": "農産直売所あぜみち 中央市場店 駐車場特設エリア",
       "summary": "キッズダンス15チームのステージ、キッチンカー、雑貨・多肉植物のマルシェと工作体験。観覧無料。パフェ作りは別途有料・要事前予約。",
       "official_url": "https://minnano-azemichi.com/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E3%81%82%E3%81%9C%E3%81%BF%E3%81%A1-hack-%E3%81%82%E3%81%9C%E3%81%BF%E3%81%A1-%E9%9D%92%E7%A9%BA%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7-with-hack-%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
-      "source_url": "https://minnano-azemichi.com/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E3%81%82%E3%81%9C%E3%81%BF%E3%81%A1-hack-%E3%81%82%E3%81%9C%E3%81%BF%E3%81%A1-%E9%9D%92%E7%A9%BA%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7-with-hack-%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B"
+      "source_url": "https://minnano-azemichi.com/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E3%81%82%E3%81%9C%E3%81%BF%E3%81%A1-hack-%E3%81%82%E3%81%9C%E3%81%BF%E3%81%A1-%E9%9D%92%E7%A9%BA%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7-with-hack-%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+      "coordinate_source_url": "https://minnano-azemichi.com/pages/%E5%BA%97%E8%88%97%E7%B4%B9%E4%BB%8B",
+      "coordinate_note": "2026-11-08: 店舗公式のGoogleマップ掲載地点。駐車場特設エリアの厳密な位置ではなく店舗代表地点。"
     },
     {
       "prefecture": "栃木県",
       "municipality": "宇都宮市",
       "address": "栃木県宇都宮市簗瀬町1444-9",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_status": "unverified",
+      "latitude": 36.5457879,
+      "longitude": 139.8936996,
+      "coordinate_status": "venue_approximate",
       "checked_on": "2026-11-07",
       "source_name": "農産直売所あぜみち公式",
       "category": "マルシェ・親子体験",
@@ -2487,7 +2489,9 @@
       "venue": "フレスポうつのみや市場（あぜみち中央市場店関連会場）",
       "summary": "親子でさつまいもパフェを作る体験。9:30〜10:30と10:45〜11:45、各回6組。親子1組2,500円、先着事前申込制。",
       "official_url": "https://minnano-azemichi.com/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E5%90%84%E5%9B%9E%E9%99%90%E5%AE%9A6%E7%B5%84-%E8%A6%AA%E5%AD%90%E3%81%A7%E4%BD%9C%E3%82%8B-%E7%A7%8B%E3%81%AE%E7%89%B9%E8%A3%BD%E3%81%95%E3%81%A4%E3%81%BE%E3%81%84%E3%82%82%E3%83%91%E3%83%95%E3%82%A7%E4%BD%9C%E3%82%8A%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E9%96%8B%E5%82%AC",
-      "source_url": "https://minnano-azemichi.com/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E5%90%84%E5%9B%9E%E9%99%90%E5%AE%9A6%E7%B5%84-%E8%A6%AA%E5%AD%90%E3%81%A7%E4%BD%9C%E3%82%8B-%E7%A7%8B%E3%81%AE%E7%89%B9%E8%A3%BD%E3%81%95%E3%81%A4%E3%81%BE%E3%81%84%E3%82%82%E3%83%91%E3%83%95%E3%82%A7%E4%BD%9C%E3%82%8A%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E9%96%8B%E5%82%AC"
+      "source_url": "https://minnano-azemichi.com/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E5%90%84%E5%9B%9E%E9%99%90%E5%AE%9A6%E7%B5%84-%E8%A6%AA%E5%AD%90%E3%81%A7%E4%BD%9C%E3%82%8B-%E7%A7%8B%E3%81%AE%E7%89%B9%E8%A3%BD%E3%81%95%E3%81%A4%E3%81%BE%E3%81%84%E3%82%82%E3%83%91%E3%83%95%E3%82%A7%E4%BD%9C%E3%82%8A%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E9%96%8B%E5%82%AC",
+      "coordinate_source_url": "https://www.e-frespo.com/utsunomiya-ichiba/shop/access.jsp",
+      "coordinate_note": "2026-11-08: フレスポ公式アクセスマップの施設代表地点。ワークショップ会場の部屋・入口を示さない。"
     },
     {
       "id": "bellmall-202612-432",
@@ -2512,7 +2516,7 @@
       "category": "ワークショップ"
     }
   ],
-  "generated_on": "2026-11-07",
+  "generated_on": "2026-11-08",
   "holiday_dates": [
     "2026-11-23",
     "2027-01-01"
