@@ -194,11 +194,11 @@
       "address": "栃木県宇都宮市陽東6-2-1",
       "latitude": 36.556077,
       "longitude": 139.929037,
-      "summary": "ドームで星空を楽しむ上映会。1日6回、3歳〜中学生対象（保護者同伴可）。各回30名、当日10時から整理券配布。",
+      "summary": "11/21〜23、カリヨンプラザでドーム型プラネタリウムを1日6回上映（10:15〜15:30）。3歳〜中学生対象、各回30人、当日10:00から整理券配布。公式ページの見出しの曜日表記は日付と不一致のため日付を優先。",
       "official_url": "https://www.bellmall.co.jp/event/390",
       "source_name": "ベルモール公式",
       "source_url": "https://www.bellmall.co.jp/event/390",
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-09",
       "coordinate_status": "venue_approximate",
       "coordinate_source_url": "https://www.bellmall.co.jp/access/"
     },
@@ -215,13 +215,14 @@
       "address": "栃木県宇都宮市陽東6-2-1",
       "latitude": 36.556077,
       "longitude": 139.929037,
-      "summary": "子どもの写真を使った飾りを親子で制作。11/6までに事前応募し、受付完了となった方が対象。",
+      "summary": "11/28 10:00〜15:00、カリヨンプラザで親子向けクリスマスフォトオーナメント制作。参加は事前応募完了者限定で、公式サイトでは応募受付終了と案内。新規申込不可。",
       "official_url": "https://www.bellmall.co.jp/event/401",
       "source_name": "ベルモール公式",
       "source_url": "https://www.bellmall.co.jp/event/401",
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-09",
       "coordinate_status": "venue_approximate",
-      "coordinate_source_url": "https://www.bellmall.co.jp/access/"
+      "coordinate_source_url": "https://www.bellmall.co.jp/access/",
+      "registration_status": "closed"
     },
     {
       "id": "bellmall-202611-394",
