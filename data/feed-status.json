@@ -1292,5 +1292,30 @@
       "終了した過去情報は履歴表示のためevents.jsonに保持。",
       "検索期間は2026-11-09〜2027-01-08。"
     ]
+  },
+  "daily_check_20261109_followup": {
+    "date": "2026-11-09",
+    "mode": "daily_difference",
+    "verified_sources": [
+      "https://www.bellmall.co.jp/event/401",
+      "https://www.bellmall.co.jp/event/390",
+      "https://www.michinoeki-ichikai.jp/event/2056/"
+    ],
+    "modified_event_ids": [
+      "bellmall-202611-401",
+      "bellmall-202611-390"
+    ],
+    "new_events": 0,
+    "cancelled_events": 0,
+    "discovered_not_published": [
+      {
+        "title": "SEASIDE BASE MARCHE",
+        "url": "https://seasidemall-ichinomiya.com/event_pop_up/seaside-base-marche-20261121",
+        "reason": "会場住所と日時は公式確認済み。公開地図による会場代表座標の照合が未完了のため保留。"
+      }
+    ],
+    "hondafes": "今回の追加調査では未再確認。既存2026-11-09のrecurring_checksを維持。",
+    "coverage": "ベルモール2件と道の駅サシバの里いちかい既存告知1件のみ確認。その他施設、既存全件、13都県は未網羅。",
+    "failures": []
   }
 }
