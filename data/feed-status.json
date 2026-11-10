@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "partial",
-  "checked_on": "2026-11-09",
+  "checked_on": "2026-11-10",
   "target_regions": [
     "関東",
     "甲信越",
@@ -58,8 +58,8 @@
     "長野県松本市",
     "長野県長野市"
   ],
-  "published_events": 119,
-  "located_events": 114,
+  "published_events": 120,
+  "located_events": 115,
   "unlocated_events": 5,
   "contains_personal_location": false,
   "automation": {
@@ -208,6 +208,13 @@
         "https://25soyukai.wixsite.com/mysite"
       ],
       "note": "2026-11-09に2027/27HondaFes、Honda祭り・ホンダ祭り、双友会、芳賀／さくら地区を組み合わせて検索し、2027年公式告知を発見できず。未発表と断定せず継続監視。2025会場・日程や2026の情報は流用していない。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "checked_on": "2026-11-10",
+      "year_2026": "official_site_confirms_2026-11-29",
+      "year_2027": "not_verified",
+      "source_url": "https://www.26hondafes-heartstudios.com/"
     }
   ],
   "supplemental_run": {
@@ -1062,24 +1069,21 @@
     "device_sync": "未確認。GitHub公開フィード更新と端末反映は別。"
   },
   "daily_check": {
-    "date": "2026-11-08",
-    "mode": "daily_diff_sunday",
-    "official_sources_checked": [
-      "https://www.michinoeki-ichikai.jp/",
-      "https://www.michinoeki-ichikai.jp/news/",
+    "date": "2026-11-10",
+    "mode": "tuesday_daily_plus_regional_partial",
+    "checked_sources": [
       "https://www.bellmall.co.jp/event/",
-      "https://www.town.mashiko.lg.jp/page/page002441.html",
-      "https://minnano-azemichi.com/blogs/お知らせ"
+      "https://www.bellmall.co.jp/event/433",
+      "https://www.bellmall.co.jp/event/401",
+      "https://minnano-azemichi.com/",
+      "https://www.michinoeki-ichikai.jp/",
+      "https://www.26hondafes-heartstudios.com/"
     ],
-    "verified_existing_event_ids": [
-      "ichikai-20261108-autumn-marche",
-      "ichikai-20261108-sashiba-collab6",
-      "mashiko-20261114-townfestival"
-    ],
-    "new_events": 0,
-    "modified_events": 0,
-    "cancelled_events": 0,
-    "unverified": "その他既存イベントの開催条件全件再確認は未実施。あぜみち上戸祭店の新米フェアは公式確認できたが、登録前の座標照合と重複確認が未完了。HondaFes 2027公式発表は今回未調査。"
+    "added": 1,
+    "modified": 1,
+    "cancelled_confirmed": 0,
+    "not_checked": "13都県別の最低3種類・2系統の調査、全施設、既存イベント全件、祝日情報の当日再確認は未完了。",
+    "honda_fes": "2026年11月29日開催を公式トップで再確認。2027年の公式発表は今回確認できず、未発表と断定しない。"
   },
   "latest_run_20261109": {
     "environment": "ChatGPT scheduled heartbeat run",
