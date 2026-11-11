@@ -1558,5 +1558,33 @@
       "HondaFes 2026の公式開催日・時間を再確認。2027告知は見つからず、発表有無は不明として継続監視。",
       "検索期間は2026-11-11〜2027-01-10。対象13都県・必須施設の確認は部分的でstatus=partial。"
     ]
+  },
+  "daily_check_20261111": {
+    "mode": "Wednesday differential",
+    "checked_on": "2026-11-11",
+    "rechecked_event_ids": [
+      "mashiko-20261114-townfestival",
+      "haga-20261129-26hondafes",
+      "ichikai-20261024-sashiba-kakashi"
+    ],
+    "checked_sources": [
+      "https://www.town.mashiko.lg.jp/page/page002441.html",
+      "https://www.michinoeki-ichikai.jp/news/",
+      "https://www.26hondafes-heartstudios.com/"
+    ],
+    "candidate_not_published": [
+      {
+        "name": "益子陶芸美術館 ジェニファー・リー オープンスタジオ",
+        "date": "2026-11-13",
+        "reason": "町公式に日時と先着予約を確認したが、会場代表座標の照合と詳細登録を未完了",
+        "url": "https://www.town.mashiko.lg.jp/page/page002441.html"
+      }
+    ],
+    "not_checked": [
+      "全イベントの再確認",
+      "周辺商業施設・直売所の全店公式一覧",
+      "13都県の全施設"
+    ],
+    "notes": "水曜のため13都県重点モード・金曜週末モードは対象外。市貝町道の駅の2025年秋まつり記事は2026年開催根拠にしない。"
   }
 }
