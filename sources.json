@@ -300,6 +300,14 @@
       "type": "discovery",
       "added_on": "2026-11-05",
       "note": "SNS埋め込みを候補発見のみに使用。SNS本文取得不能はアクセス確認不能として扱う。"
+    },
+    {
+      "region": "栃木県益子町・芳賀町周辺",
+      "name": "つちのめぐみ Instagram（地域クラフト出店者）",
+      "url": "https://www.instagram.com/tsuchi_no_megumi/",
+      "type": "public_exhibitor_social",
+      "added_on": "2026-11-15",
+      "note": "2026-11-15かしの森公園『あそびのマルシェ』の出店告知をユーザー提供画像で確認。今後も公開出店告知を新規イベント発見に使う。本人がイベント主催者とは断定しない。投稿固有URL未取得。ログイン壁やアクセス制限を回避しない。"
     }
   ],
   "collection_policy": {
