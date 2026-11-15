@@ -1741,5 +1741,38 @@
     "alternate_venue_address": "栃木県芳賀郡芳賀町芳賀台98-1",
     "alternate_venue_source_url": "https://hokoren.com/access/",
     "original_venue_map_warning": "イベントのlatitude/longitudeは通常会場のかしの森公園の代表点であり、雨天時の会場には使えない。"
+  },
+  "daily_run_20261115_1700": {
+    "checked_on": "2026-11-15",
+    "mode": "Sunday daily differential",
+    "added_events": 0,
+    "modified_events": 0,
+    "reconfirmed_events": 4,
+    "cancelled_events": 0,
+    "verified_sources": [
+      {
+        "name": "道の駅サシバの里いちかい公式",
+        "url": "https://www.michinoeki-ichikai.jp/news/",
+        "note": "かかし祭り展示終了11/29確認。過去2025年の秋まつり記事は2026年開催根拠としない"
+      },
+      {
+        "name": "ベルモール公式",
+        "url": "https://www.bellmall.co.jp/event/401",
+        "note": "11/28フォトオーナメントの事前応募完了者限定条件確認"
+      },
+      {
+        "name": "あぜみち公式",
+        "url": "https://minnano-azemichi.com/",
+        "note": "上戸祭店11/22・29の新米フェア日程と販売条件を個別告知で再確認"
+      }
+    ],
+    "not_rechecked": [
+      "13都県の全施設・全件",
+      "FKD・イオン各施設",
+      "HondaFesの当日再検索",
+      "既存イベント全件"
+    ],
+    "reason_partial": "日曜の周辺差分チェックの一部のみ実施。13都県網羅や全件再確認は未完了。",
+    "coordinate_note": "未設定3件は公開地図の座標検証未完了のため維持"
   }
 }
