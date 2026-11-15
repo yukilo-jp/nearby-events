@@ -203,10 +203,39 @@
   "recurring_checks": [
     {
       "id": "honda-soyukai-haga-sakura",
+      "year": 2026,
+      "checked_on": "2026-11-11",
+      "status": "announced_venue_reference_located",
+      "start_date": "2026-11-29",
+      "source_url": "https://www.26hondafes-heartstudios.com/",
+      "note": "公式ページで2026/11/29（日）10:00-17:30、HAGA, TOCHIGIを再確認。入場門・会場代表地点の詳細までは今回未確認。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2027,
+      "checked_on": "2026-11-16",
+      "status": "official_announcement_not_found_in_current_search",
+      "source_urls": [
+        "https://www.26hondafes-heartstudios.com/",
+        "https://25soyukai.wixsite.com/mysite"
+      ],
+      "note": "HondaFes/Honda祭り/ホンダ祭り、双友会、芳賀・さくらと2027/27を組み合わせて公式導線を確認したが開催発表を発見できず。未発表と断定せず継続監視。前年の日程・会場は流用していない。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
       "checked_on": "2026-11-10",
       "year_2026": "official_site_confirms_2026-11-29",
       "year_2027": "not_verified",
       "source_url": "https://www.26hondafes-heartstudios.com/"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2026,
+      "checked_on": "2026-11-16",
+      "status": "official_date_confirmed",
+      "start_date": "2026-11-29",
+      "source_url": "https://www.26hondafes-heartstudios.com/",
+      "note": "公式ページで2026/11/29（日）10:00〜17:30、HAGA, TOCHIGIを再確認。会場・入口の精密位置や一般参加条件は未確認。"
     }
   ],
   "supplemental_run": {
