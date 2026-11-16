@@ -449,7 +449,11 @@
       "checked_on": "2026-11-02",
       "summary": "一般公開は12/6、入場無料。時刻・展示詳細は順次公表。入場は正門、一般車の駐車場なし。距離・ナビは基地代表地点のため入口を公式で確認。",
       "category": "航空祭・基地公開",
-      "verification_url": "https://www.city.hitachinaka.lg.jp/kurashi/shobo/1007111/1011011.html"
+      "verification_url": "https://www.city.hitachinaka.lg.jp/kurashi/shobo/1007111/1011011.html",
+      "thumbnail_url": "https://www.mod.go.jp/asdf/hyakuri/2-5_pr/r8koukusai/R8poster.jpg",
+      "thumbnail_permission": "approved",
+      "thumbnail_attribution": "出典：航空自衛隊 百里基地「百里基地開庁60周年記念航空祭」公式ポスター",
+      "thumbnail_license_url": "https://www.mod.go.jp/asdf/notice/"
     },
     {
       "id": "ozawa-20261114-openfactory",
