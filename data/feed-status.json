@@ -19,11 +19,14 @@
     "埼玉県狭山市",
     "宮城県仙台市",
     "宮城県多賀城市",
+    "宮城県東松島市",
     "宮城県柴田町",
+    "宮城県気仙沼市",
     "宮城県登米市",
     "山形県寒河江市",
     "山形県山形市",
     "山梨県富士河口湖町",
+    "山梨県山中湖村",
     "山梨県甲府市",
     "新潟県三条市",
     "新潟県弥彦村",
@@ -51,6 +54,7 @@
     "神奈川県厚木市",
     "神奈川県川崎市",
     "神奈川県横浜市",
+    "神奈川県海老名市",
     "福島県いわき市",
     "福島県富岡町",
     "福島県福島市",
@@ -60,6 +64,7 @@
     "群馬県安中市",
     "群馬県桐生市",
     "群馬県玉村町",
+    "群馬県藤岡市",
     "茨城県つくば市",
     "茨城県ひたちなか市",
     "茨城県土浦市",
@@ -67,12 +72,13 @@
     "茨城県石岡市",
     "茨城県笠間市",
     "長野県上田市",
+    "長野県安曇野市",
     "長野県松本市",
     "長野県長野市"
   ],
-  "published_events": 165,
+  "published_events": 185,
   "located_events": 159,
-  "unlocated_events": 6,
+  "unlocated_events": 26,
   "contains_personal_location": false,
   "automation": {
     "schedule": "毎日06:00 Asia/Tokyo",
@@ -246,6 +252,26 @@
         "https://www.26hondafes-heartstudios.com/"
       ],
       "note": "HondaFes 2027/27、双友会・芳賀・さくら等の発見検索で新しい公式発表を検証できず。未発表と断定しない。2026年開催の既確認情報は維持。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2026,
+      "checked_on": "2026-11-18",
+      "status": "official_date_confirmed",
+      "start_date": "2026-11-29",
+      "source_url": "https://www.26hondafes-heartstudios.com/",
+      "note": "公式26HondaFesページで2026年11月29日（日）10:00〜17:30を再確認。会場・入場門の精密位置、一般参加条件は未確認。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2027,
+      "checked_on": "2026-11-18",
+      "status": "official_announcement_not_found_in_current_search",
+      "source_urls": [
+        "https://www.26hondafes-heartstudios.com/",
+        "https://25soyukai.wixsite.com/mysite"
+      ],
+      "note": "HondaFes/Honda祭り/ホンダ祭り、Honda双友会、芳賀・さくら、2027/27の組合せで検索。現行公式ページは2026年情報のみ。未発表とは断定せず継続確認。"
     }
   ],
   "supplemental_run": {
@@ -314,6 +340,16 @@
       "name": "イオンモール太田の個別イベント詳細ページ",
       "checked_on": "2026-11-16",
       "reason": "公式一覧で開催日が見える一部イベントの詳細ページが取得エラーとなり、会場内場所・条件等を確認できなかったため掲載保留。"
+    },
+    {
+      "name": "山中湖 花の都公園公式イベント詳細",
+      "checked_on": "2026-11-18",
+      "reason": "公式検索結果に今季の日付・時間・料金が表示されたが、詳細ページの直接取得は502エラー。公式検索結果の記載を根拠に掲載。"
+    },
+    {
+      "name": "イオンモール各店・あぜみち各店の個別告知",
+      "checked_on": "2026-11-18",
+      "reason": "一覧検索と一部公式ページ確認のみ。全店舗の個別ページ・申込条件確認は未完了。未調査をアクセス失敗とは扱わず、partialとして記録。"
     }
   ],
   "coordinate_update": {
@@ -2448,5 +2484,165 @@
       }
     ],
     "status": "partial"
+  },
+  "latest_run_20261118": {
+    "checked_on": "2026-11-18",
+    "run_time_jst": "2026-11-18T21:11",
+    "mode": "wednesday_partial",
+    "status": "partial",
+    "window_start": "2026-11-18",
+    "window_end": "2027-01-17",
+    "added_events": [
+      "tochigi-20261213-haga-flower-exhibition",
+      "tochigi-20261212-mashiko-geminids",
+      "tochigi-20261127-moka-aio-exhibition",
+      "tochigi-20261202-moka-aio-gallery-exhibit",
+      "tochigi-20261212-moka-koujin-photo-exhibit",
+      "tochigi-20261206-kanuma-kids-festa",
+      "tochigi-20261003-kanuma-karasawa-exhibition",
+      "ibaraki-20261121-tsuchiura-suigo-illumination",
+      "ibaraki-20261219-tsuchiura-hoshizora-market",
+      "gunma-20261024-laran-illumination",
+      "chiba-20261218-swiss-christmas-market",
+      "chiba-20261211-tokyo-comicon",
+      "chiba-20261212-makuhari-handmade-festa",
+      "kanagawa-20261101-ebina-city-lights",
+      "yamanashi-20261201-hananomiyako-fantasyum",
+      "miyagi-20261201-kesennuma-illumination",
+      "fukushima-20261204-hikari-no-shizuku",
+      "saitama-20261211-keyaki-christmas-market",
+      "niigata-20260919-bandai-master-thief",
+      "nagano-20261204-kamiakari"
+    ],
+    "searched_prefectures": [
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県",
+      "山梨県",
+      "長野県",
+      "新潟県",
+      "宮城県",
+      "山形県",
+      "福島県"
+    ],
+    "search_depth": "13都県の広域検索とWalkerPlus発見検索、県・市町村・主催者・会場の公式サイト検索。13都県それぞれ最低3種の独立検索・2系統の個別照合は未達。",
+    "counts_by_prefecture": {
+      "千葉県": 16,
+      "埼玉県": 10,
+      "宮城県": 11,
+      "山形県": 12,
+      "山梨県": 3,
+      "新潟県": 6,
+      "東京都": 9,
+      "栃木県": 72,
+      "神奈川県": 8,
+      "福島県": 8,
+      "群馬県": 7,
+      "茨城県": 14,
+      "長野県": 9
+    },
+    "verified_sources": [
+      {
+        "name": "内閣府・2026/2027年祝日",
+        "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      },
+      {
+        "name": "WalkerPlus（発見検索）",
+        "url": "https://www.walkerplus.com/event_list/12/ar0310/eg0000/"
+      },
+      {
+        "name": "道の駅サシバの里いちかい",
+        "url": "https://www.michinoeki-ichikai.jp/"
+      },
+      {
+        "name": "益子町公式・12月イベント",
+        "url": "https://www.town.mashiko.lg.jp/page/page002458.html"
+      },
+      {
+        "name": "栃木県公式・芳賀地方花の展覧会",
+        "url": "https://www.pref.tochigi.lg.jp/g53/kouhou/flowerfes2026.html"
+      },
+      {
+        "name": "真岡市公式イベント",
+        "url": "https://www.city.moka.lg.jp/event_bunka_sports/rekishi_bunka/bunka_geijutsu/bijutsuhin/16922.html"
+      },
+      {
+        "name": "鹿沼市公式イベント",
+        "url": "https://www.city.kanuma.tochigi.jp/0181/info-0000008329-0.html"
+      },
+      {
+        "name": "土浦市公式・水郷桜イルミネーション",
+        "url": "https://www.city.tsuchiura.lg.jp/kanko-bunka-sports/sangyobunkajigyodan/event-info/suigosakura-illumination/page021941.html"
+      },
+      {
+        "name": "道の駅ららん藤岡公式",
+        "url": "https://www.laranfujioka.com/illumination"
+      },
+      {
+        "name": "幕張メッセ公式イベントカレンダー",
+        "url": "https://www.m-messe.co.jp/event/"
+      },
+      {
+        "name": "ベルモール公式イベント一覧",
+        "url": "https://www.bellmall.co.jp/event/?sc=11"
+      },
+      {
+        "name": "福島市観光ノート",
+        "url": "https://www.f-kankou.jp/event/44286"
+      },
+      {
+        "name": "気仙沼観光公式",
+        "url": "https://kesennuma-kanko.jp/kesennumaillumination2026/"
+      },
+      {
+        "name": "新潟県立万代島美術館",
+        "url": "https://banbi.pref.niigata.lg.jp/exhibition/master_thief/"
+      },
+      {
+        "name": "安曇野神竹灯公式",
+        "url": "https://www.kamiakari.com/"
+      },
+      {
+        "name": "FKD公式イベント一覧",
+        "url": "https://www.fukudaya.net/event/"
+      },
+      {
+        "name": "AEON MALL須坂公式一覧",
+        "url": "https://suzaka.aeonmall.com/news?tabs=event_news"
+      }
+    ],
+    "source_checks": {
+      "walkerplus": "都県別の発見検索に使用し、追加分は公式情報と照合。",
+      "municipal_calendars": "益子・真岡・鹿沼・土浦など一部の公式ページ確認。全市区町村未確認。",
+      "roadside_stations": "市貝町の道の駅公式カレンダー、道の駅ららん藤岡の公式イルミページを確認。全駅未確認。",
+      "azemichi": "公式週次ページを検索。対象日・年が明確なイベント詳細を照合できた追加候補はなく、店舗別告知は未完了。",
+      "aeon": "須坂の公式一覧を確認。個別条件の照合は未完了で、他地域の各モールも未確認。",
+      "bellmall": "公式一覧とスワッグ・クリスマスBOX・スノードーム個別ページを確認。BOXの受付期間・対象年齢を再確認。スノードームは既掲載。",
+      "fkd": "公式イベント一覧を確認したが最新表示は11月分中心で12月イベントは確認できず。",
+      "illumination": "今季の期間・時間・特別日・休止条件が確認できた催しを追補。追加分の会場座標は未検証。",
+      "air_factory": "航空祭・基地公開・工場祭の全県別調査は未完了。",
+      "honda": "公式26HondaFesサイトで2026/11/29を確認。2027年発表は公式サイトで確認できず、未発表と断定しない。"
+    },
+    "unreviewed": [
+      "13都県別最低3検索・2系統の照合",
+      "全市区町村カレンダー",
+      "道の駅全件",
+      "あぜみち各店",
+      "各イオン・イオンモール",
+      "FKD12月分",
+      "航空祭・工場祭の全件",
+      "追加会場の座標"
+    ],
+    "holiday_check": "内閣府公式表で期間内の2026-11-23、2027-01-01、2027-01-11を確認。既存holiday_datesと一致。",
+    "honda_check": "2026年は公式サイトで11/29・10:00〜17:30を確認。2027年は現行公式ページに告知なし。未発表とは断定せず継続監視。",
+    "app_modified": false,
+    "corrected_events": [
+      "bellmall-20261213-xmasbox",
+      "bellmall-20261219-snowglobe"
+    ]
   }
 }
