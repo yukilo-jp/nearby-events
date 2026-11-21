@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "partial",
-  "checked_on": "2026-11-20",
+  "checked_on": "2026-11-21",
   "target_regions": [
     "関東",
     "甲信越",
@@ -76,8 +76,8 @@
     "長野県松本市",
     "長野県長野市"
   ],
-  "published_events": 185,
-  "located_events": 185,
+  "published_events": 189,
+  "located_events": 189,
   "unlocated_events": 0,
   "contains_personal_location": false,
   "automation": {
@@ -291,6 +291,14 @@
         "https://25soyukai.wixsite.com/mysite"
       ],
       "note": "公式導線は2026開催を掲載。2027別名検索の結果は取得できず、未発表とは断定しない。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2026,
+      "checked_on": "2026-11-21",
+      "status": "official_schedule_reconfirmed",
+      "source_url": "https://www.26hondafes-heartstudios.com/blank-3",
+      "note": "2026/11/29 10:00-17:30。2027年は今回未再調査。"
     }
   ],
   "supplemental_run": {
@@ -2796,5 +2804,53 @@
       "週末全件と来場者駐車場・予約条件の全件確認未完了"
     ],
     "holiday_check": "11/23勤労感謝の日を内閣府で確認"
+  },
+  "latest_run_20261121": {
+    "checked_on": "2026-11-21",
+    "mode": "daily_diff_only_saturday",
+    "status": "partial",
+    "added_events": [
+      "bellmall-20261125-blackfriday",
+      "bellmall-20261212-honda-dreamhands",
+      "bellmall-20261220-voja-gospel",
+      "ichikai-20261129-shinshu-marche"
+    ],
+    "updated_events": [
+      "haga-20261129-26hondafes",
+      "ichikai-20261024-sashiba-kakashi",
+      "bellmall-20261213-xmasbox",
+      "azemichi-kamitomatsuri-20261122-ricefair"
+    ],
+    "cancelled_confirmed": 0,
+    "coordinate_missing_before": 0,
+    "coordinate_resolved": 0,
+    "coordinate_missing_after": 0,
+    "verified_sources": [
+      {
+        "name": "道の駅サシバの里いちかい",
+        "url": "https://www.michinoeki-ichikai.jp/xo_event/%E7%89%A9%E7%94%A3%E7%A5%AD-%E4%BF%A1%E5%B7%9E%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7/"
+      },
+      {
+        "name": "ベルモール公式イベント一覧",
+        "url": "https://www.bellmall.co.jp/event/"
+      },
+      {
+        "name": "あぜみち上戸祭店公式",
+        "url": "https://minnano-azemichi.com/"
+      },
+      {
+        "name": "HondaFes公式",
+        "url": "https://www.26hondafes-heartstudios.com/blank-3"
+      },
+      {
+        "name": "内閣府祝日",
+        "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      }
+    ],
+    "prefecture_review": "栃木県一部のみ。土曜のため13都県重点調査モード対象外。",
+    "unverified": "既存イベント全件、対象13都県全域、FKD・イオン全店舗、道の駅ましこの個別告知、HondaFes2027年の新規公式発表は本実行で未確認。",
+    "honda_2026": "2026/11/29 10:00-17:30 official schedule checked",
+    "honda_2027": "not_rechecked_this_run",
+    "holiday": "2026-11-23 勤労感謝の日確認"
   }
 }
