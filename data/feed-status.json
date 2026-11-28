@@ -316,6 +316,25 @@
       "checked_on": "2026-11-22",
       "status": "not_verified_this_run",
       "note": "当日検索で2027公式発表を確認できず。未発表とは断定しない。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2026,
+      "checked_on": "2026-11-28",
+      "status": "official_schedule_reconfirmed",
+      "source_url": "https://www.26hondafes-heartstudios.com/",
+      "note": "公式サイトで2026/11/29（日）、HAGA, TOCHIGI、10:00〜17:30を再確認。開催前日のため開催予定として維持。"
+    },
+    {
+      "id": "honda-soyukai-haga-sakura",
+      "year": 2027,
+      "checked_on": "2026-11-28",
+      "status": "official_announcement_not_found_in_current_search",
+      "source_urls": [
+        "https://www.26hondafes-heartstudios.com/",
+        "https://25soyukai.wixsite.com/mysite"
+      ],
+      "note": "現行公式サイトを確認したが、今回の検索で2027年の公式開催発表を確認できず。未発表とは断定せず継続監視。前年の日程・会場は流用しない。"
     }
   ],
   "supplemental_run": {
